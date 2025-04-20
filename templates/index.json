@@ -409,6 +409,171 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "scrolling_promotion_CRKYac": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_GwU83n": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "Welcome to our store",
+            "text_size": 20,
+            "link": ""
+          }
+        },
+        "announcement_CnjGAQ": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "Welcome to our store",
+            "text_size": 20,
+            "link": ""
+          }
+        },
+        "announcement_jBFjni": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "Welcome to our store",
+            "text_size": 20,
+            "link": ""
+          }
+        },
+        "announcement_K3g6zk": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "Welcome to our store",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_GwU83n",
+        "announcement_CnjGAQ",
+        "announcement_jBFjni",
+        "announcement_K3g6zk"
+      ],
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#f2f2f2",
+        "gradient_background": "",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "faq_NCqWkX": {
+      "type": "faq",
+      "blocks": {
+        "question_4bntzh": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          }
+        },
+        "question_rPXKRL": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_4bntzh",
+        "question_rPXKRL"
+      ],
+      "settings": {
+        "narrow": false,
+        "secondary_background": true,
+        "show_divider": false,
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonials_Yd4fqy": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_AGyfYH": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
+            "author": "Author"
+          }
+        },
+        "testimonial_TrTVxM": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
+            "author": "Author"
+          }
+        },
+        "testimonial_WKHQch": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
+            "author": "Author"
+          }
+        },
+        "testimonial_qMMTda": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
+            "author": "Author"
+          }
+        },
+        "testimonial_tQadeK": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
+            "author": "Author"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_AGyfYH",
+        "testimonial_TrTVxM",
+        "testimonial_WKHQch",
+        "testimonial_qMMTda",
+        "testimonial_tQadeK"
+      ],
+      "settings": {
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "hide_images": false,
+        "show_divider": false,
+        "heading": "Testimonials",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -419,6 +584,9 @@
     "featured_collection_DYNpRA",
     "scrolling_promotion_HiHV48",
     "collection_list_gBwAYq",
-    "images_with_text_69AqUH"
+    "images_with_text_69AqUH",
+    "scrolling_promotion_CRKYac",
+    "faq_NCqWkX",
+    "testimonials_Yd4fqy"
   ]
 }
