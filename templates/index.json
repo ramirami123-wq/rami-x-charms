@@ -15,6 +15,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/slideshow_mobile1.jpg",
             "image_position": "center center",
             "text_box_position": "bottom-center",
             "subheading": "Add a tagline",
