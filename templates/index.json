@@ -118,13 +118,13 @@
           "settings": {
             "price_size": "medium",
             "show_badges": true,
-            "sale_badge_basis": "auto"
+            "sale_badge_basis": "percentage"
           }
         },
         "custom_liquid_RriXCi": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"border: 1px solid #e53935; background-color: #ffebee; text-align: center; padding: 30px; font-family: Arial, sans-serif; width: fit-content; margin: 50px auto;\">\n    <h3 style=\"letter-spacing: 2px; font-weight: 400; font-size: 14px; text-transform: uppercase; margin: 0; color: #333;\">\n      BUY 12 CHARMS AND GET THE BRACELET FOR FREE\n    </h3>\n    <p style=\"margin-top: 10px; font-size: 16px; color: #333;\">\n      Buy 12 charms to get your bracelet for free\n    </p>\n  </div>"
+            "custom_liquid": "<div style=\"border: 1px solid #e53935; background-color: #ffebee; text-align: center; padding: 30px; font-family: Arial, sans-serif; width: fit-content; margin: 50px auto;\">\n    <h3 style=\"letter-spacing: 2px; font-weight: 400; font-size: 14px; text-transform: uppercase; margin: 0; color: #333;\">\n     BUY 10 CHARMS & GET YOUR BRACELET FOR FREE!\n    </h3>\n    <p style=\"margin-top: 10px; font-size: 16px; color: #333;\">\n    Add your bracelet & charms of choice to cart and benefit from the offer.\n    </p>\n  </div>"
           }
         },
         "variant_picker": {
