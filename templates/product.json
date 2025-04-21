@@ -164,88 +164,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "guarantees": {
-      "type": "guarantees",
-      "blocks": {
-        "guarantee-0": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "leaf",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
-          }
-        },
-        "guarantee-1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "globe",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
-          }
-        },
-        "guarantee-2": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "recycle",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
-          }
-        },
-        "guarantee-3": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "shield",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "guarantee-0",
-        "guarantee-1",
-        "guarantee-2",
-        "guarantee-3"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": true,
-        "show_divider": false,
-        "columns_desktop": 4,
-        "heading": "Guarantees",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 72,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "empty-space",
     "main",
     "product-recommendations",
-    "featured_collection_yXyp9V",
-    "guarantees"
+    "featured_collection_yXyp9V"
   ]
 }
