@@ -46,8 +46,8 @@
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "600px",
         "show_text_below": false,
-        "colors_button_label": "#1a1b18",
-        "colors_button_background": "#ffffff",
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#9e132b",
         "colors_text": "#ffffff",
         "colors_background": "#ffffff",
         "colors_overlay": "#1a1b18",
@@ -58,47 +58,35 @@
         "padding_bottom": 36
       }
     },
-    "rich-text-0": {
-      "type": "rich-text",
+    "scrolling_promotion_CRKYac": {
+      "type": "scrolling-promotion",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "announcement_K3g6zk": {
+          "type": "announcement",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share ✨ information ✨ about your brand with your customers 😄. You can also highlight text and use emoji to make certain words stand out.</p>",
-            "text_size": "typeset3",
-            "secondary_color": false,
-            "highlight_phrases": "highlight\nuse emoji",
-            "highlight_style": "underline"
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "Buy 12 charms and get the bracelet for free",
+            "text_size": 20,
+            "link": ""
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "announcement_K3g6zk"
       ],
       "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": true,
+        "direction": "left",
+        "speed": 1.6,
         "show_divider": false,
         "use_custom_colors": true,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "colors_highlight": "#ffb503",
+        "colors_icon": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_background": "#9e132b",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "featured-product": {
@@ -392,73 +380,6 @@
         "padding_bottom": 36
       }
     },
-    "scrolling_promotion_CRKYac": {
-      "type": "scrolling-promotion",
-      "blocks": {
-        "announcement_GwU83n": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "Welcome to our store",
-            "text_size": 20,
-            "link": ""
-          }
-        },
-        "announcement_CnjGAQ": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "Welcome to our store",
-            "text_size": 20,
-            "link": ""
-          }
-        },
-        "announcement_jBFjni": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "Welcome to our store",
-            "text_size": 20,
-            "link": ""
-          }
-        },
-        "announcement_K3g6zk": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "Welcome to our store",
-            "text_size": 20,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_GwU83n",
-        "announcement_CnjGAQ",
-        "announcement_jBFjni",
-        "announcement_K3g6zk"
-      ],
-      "settings": {
-        "direction": "left",
-        "speed": 1.6,
-        "show_divider": false,
-        "use_custom_colors": true,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#f2f2f2",
-        "gradient_background": "",
-        "padding_top": 12,
-        "padding_bottom": 12
-      }
-    },
     "faq_NCqWkX": {
       "type": "faq",
       "blocks": {
@@ -560,14 +481,13 @@
   },
   "order": [
     "slideshow",
-    "rich-text-0",
+    "scrolling_promotion_CRKYac",
     "featured-product",
     "scrolling-promotion",
     "featured_collection_DYNpRA",
     "scrolling_promotion_HiHV48",
     "collection_list_gBwAYq",
     "images_with_text_69AqUH",
-    "scrolling_promotion_CRKYac",
     "faq_NCqWkX",
     "testimonials_Yd4fqy"
   ]
