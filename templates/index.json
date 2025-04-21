@@ -293,21 +293,21 @@
         "featured_collection_tJigfB": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
+            "collection": "silver-charms",
             "image_position": "center center"
           }
         },
         "featured_collection_WcKNLn": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
+            "collection": "golden-charms",
             "image_position": "center center"
           }
         },
         "featured_collection_iRWPgj": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
+            "collection": "charms",
             "image_position": "center center"
           }
         }
@@ -321,7 +321,7 @@
         "show_view_all": false,
         "show_divider": false,
         "columns_desktop": 3,
-        "heading": "Collections",
+        "heading": "Explore Our Collections",
         "heading_size": "h1",
         "heading_alignment": "center",
         "heading_tag": "h2",
