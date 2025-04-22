@@ -70,6 +70,17 @@
             "show_gift_card_recipient": false
           }
         },
+        "collapsible_tab_Eafx6J": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "heart",
+            "heading": "Description",
+            "content": "<p><strong>Material </strong>| Made of high-quality, durable and waterproof stainless steel.</p><p><strong>Size </strong>| Our bracelets feature 17 charm links that expand and contract to fit your wrist perfectly. All our charms are compatible so you can easily add and remove links as you wish</p>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
         "custom_liquid_97W9nE": {
           "type": "custom_liquid",
           "settings": {
@@ -90,6 +101,7 @@
         "custom_liquid_HR3dbn",
         "variant_picker",
         "buy_buttons",
+        "collapsible_tab_Eafx6J",
         "custom_liquid_97W9nE",
         "sticky_cart"
       ],
