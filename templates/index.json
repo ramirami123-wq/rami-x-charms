@@ -471,48 +471,40 @@
           "type": "testimonial",
           "settings": {
             "image": "shopify://shop_images/Photo_May_01_2024_8_51_39_PM_43_1.png",
-            "text": "<p>Testimonial text</p>",
-            "author": "Author"
+            "text": "<p>\"I bought a blank one for my boyfriend and he LOVES it. Looks very minimal, and feels extremely high quality on the wrist...\"</p>",
+            "author": "Celine K."
           }
         },
         "testimonial_VY6zVD": {
           "type": "testimonial",
           "settings": {
             "image": "shopify://shop_images/Photo_May_01_2024_8_51_39_PM_19_1.png",
-            "text": "<p>Testimonial text</p>",
-            "author": "Author"
+            "text": "<p>\"I have ordered twice and love it!! I had one when I was a little girl, this brought back so much nostalgia\"</p>",
+            "author": "Mona"
           }
         },
         "testimonial_Ly7pVr": {
           "type": "testimonial",
           "settings": {
             "image": "shopify://shop_images/393264173_3556413637931986_4397495809544315678_n-topaz-enhance_b6a19338-29a6-4800-bb9d-5c8a49519c30.png",
-            "text": "<p>Testimonial text</p>",
-            "author": "Author"
+            "text": "<p>\"I WILL NEVER TAKE IT OFF 😭💗 I've had mine for over a month and it still looks brand new!!!\"</p>",
+            "author": "Maryam J."
           }
         },
         "testimonial_EpXkBa": {
           "type": "testimonial",
           "settings": {
             "image": "shopify://shop_images/Photo_Oct_14_2024_7_06_00_PM.png",
-            "text": "<p>Testimonial text</p>",
-            "author": "Author"
+            "text": "<p>\"ABSOLUTELY ADORABLE!!! I wear it everywhere and it hasn't rusted or turned green at all 🥰\"</p>",
+            "author": "Joumana H."
           }
         },
         "testimonial_wHrgQD": {
           "type": "testimonial",
           "settings": {
             "image": "shopify://shop_images/391613513_1046234820125228_5530516463431808071_n-topaz-enhance_ac827ce8-0f35-497e-b38c-d1e8392b792f.png",
-            "text": "<p>Testimonial text</p>",
-            "author": "Author"
-          }
-        },
-        "testimonial_jeLXeA": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/Photo_May_01_2024_8_51_39_PM_18.png",
-            "text": "<p>Testimonial text</p>",
-            "author": "Author"
+            "text": "<p>\"It's so refreshing to wear something that truly represents me. This bracelet is by far my favorite piece of jewelry I own!\"</p>",
+            "author": "Malak K."
           }
         }
       },
@@ -521,8 +513,7 @@
         "testimonial_VY6zVD",
         "testimonial_Ly7pVr",
         "testimonial_EpXkBa",
-        "testimonial_wHrgQD",
-        "testimonial_jeLXeA"
+        "testimonial_wHrgQD"
       ],
       "settings": {
         "body_gap": 60,
