@@ -46,7 +46,7 @@
         "custom_liquid_HR3dbn": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"border: 1px solid #e53935; background-color: #ffebee; text-align: center; padding: 30px; font-family: Arial, sans-serif; width: fit-content; margin: 50px auto;\">\n    <h3 style=\"letter-spacing: 2px; font-weight: 400; font-size: 14px; text-transform: uppercase; margin: 0; color: #333;\">\n     BUY 10 CHARMS & GET YOUR BRACELET FOR FREE!\n    </h3>\n    <p style=\"margin-top: 10px; font-size: 16px; color: #333;\">\n    Add your bracelet & charms of choice to cart and benefit from the offer.\n    </p>\n  </div>"
+            "custom_liquid": "<div style=\"border: 1px solid #e53935; background-color: #ffebee; text-align: center; padding: 30px; font-family: Arial, sans-serif; width: fit-content; margin: 50px auto;\">\n    <h3 style=\"letter-spacing: 2px; font-weight: 400; font-size: 14px; text-transform: uppercase; margin: 0; color: #333;\">\n     BUY 12 CHARMS & GET YOUR BRACELET FOR FREE!\n    </h3>\n    <p style=\"margin-top: 10px; font-size: 16px; color: #333;\">\n    Add your bracelet & charms of choice to cart and benefit from the offer.\n    </p>\n  </div>"
           }
         },
         "variant_picker": {
@@ -232,6 +232,37 @@
         "lazy": true
       }
     },
+    "scrolling_promotion_KJmcXP": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_6DeKwB": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "FREE DELIVERY ALL OVER LEBANON",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_6DeKwB"
+      ],
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_background": "#9e132b",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -317,6 +348,7 @@
     "empty-space",
     "main",
     "ss_steps_4_RDR6Gh",
+    "scrolling_promotion_KJmcXP",
     "product-recommendations",
     "featured_collection_yXyp9V",
     "174534765867b81348"
