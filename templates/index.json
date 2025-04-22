@@ -314,6 +314,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "silver-charms",
+            "image": "shopify://shop_images/purplesstar.jpg",
             "image_position": "center center"
           }
         },
@@ -327,7 +328,7 @@
         "featured_collection_iRWPgj": {
           "type": "featured_collection",
           "settings": {
-            "collection": "charms",
+            "collection": "watches",
             "image_position": "center center"
           }
         }
