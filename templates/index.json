@@ -95,8 +95,8 @@
         "custom_liquid": "<section style=\"\n  width: 100%;\n  background-color: #9E132B;\n  padding: 60px 20px;\n  text-align: center;\n\">\n  <h2 style=\"\n    color: white;\n    font-size: 28px;\n    letter-spacing: 2px;\n    font-weight: 700;\n    font-family: 'Poppins', sans-serif;\n    margin: 0;\n  \">\n    STEP 1: <span style=\"font-weight: 400;\">CHOOSE YOUR BRACELET</span>\n  </h2>\n</section>",
         "full_width": true,
         "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "featured-product": {
