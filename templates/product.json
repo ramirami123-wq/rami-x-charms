@@ -122,6 +122,116 @@
         "padding_bottom": 72
       }
     },
+    "ss_steps_4_RDR6Gh": {
+      "type": "ss-steps-4",
+      "blocks": {
+        "step_G9Fink": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/animation-3-composable-v1_5924c9b0-a024-4046-926a-2b6c9ac213c1.webp",
+            "text": "<p>Expand the charms of your bracelet by pulling them apart.</p>"
+          }
+        },
+        "step_447VGR": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/animation-2-composable_b7380ecf-21fb-4353-9732-7bf7d469b292.webp",
+            "text": "<p>Grasp the two Links you want to separate and unhook them.</p>"
+          }
+        },
+        "step_EKXfHk": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/animation-1-composable_57aad4c9-37a5-4f37-985b-f1021619e2e7.webp",
+            "text": "<p>Insert and connect the new Charm, or remove an old one.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "step_G9Fink",
+        "step_447VGR",
+        "step_EKXfHk"
+      ],
+      "settings": {
+        "heading": "<p><strong>HOW DO I ADD CHARMS?</strong></p>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 44,
+        "heading_size_mobile": 32,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "body_gap": 64,
+        "body_gap_mobile": 56,
+        "body_mt": 72,
+        "body_mt_mobile": 50,
+        "use_slider": false,
+        "slider_view_mobile": 1.3,
+        "slider_gap_mobile": 20,
+        "image_radius": 16,
+        "image_border_thickness": 2,
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "circle_number_size": 40,
+        "circle_number_size_mobile": 40,
+        "number_custom": false,
+        "number_font": "josefin_sans_n4",
+        "number_size": 18,
+        "number_size_mobile": 18,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 18,
+        "text_height": 130,
+        "text_mt": 24,
+        "text_align": "center",
+        "text_align_mobile": "center",
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "button_size_mobile": 16,
+        "button_height": 100,
+        "button_width": 200,
+        "button_width_mobile": 200,
+        "button_mt": 70,
+        "button_mt_mobile": 32,
+        "button_padding_vertical": 14,
+        "button_padding_vertical_mobile": 14,
+        "button_padding_horizontal": 22,
+        "button_padding_horizontal_mobile": 22,
+        "button_radius": 100,
+        "button_border_thickness": 0,
+        "button_align": "center",
+        "button_align_mobile": "center",
+        "button_style": "non_outline",
+        "image_border_color": "#9e132b",
+        "circle_number_bg_color": "#9e132b",
+        "number_color": "#FFFFFF",
+        "text_color": "#000000",
+        "button_color": "#FFFFFF",
+        "button_hover_color": "#FFFFFF",
+        "button_bg_color": "#000000",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 130,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -206,6 +316,7 @@
   "order": [
     "empty-space",
     "main",
+    "ss_steps_4_RDR6Gh",
     "product-recommendations",
     "featured_collection_yXyp9V",
     "174534765867b81348"
