@@ -237,6 +237,16 @@
         "padding_bottom": 12
       }
     },
+    "custom_liquid_hCXQkT": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<section style=\"\n  width: 100%;\n  background-color: #9E132B;\n  padding: 60px 20px;\n  text-align: center;\n\">\n  <h2 style=\"\n    color: white;\n    font-size: 28px;\n    letter-spacing: 2px;\n    font-weight: 700;\n    font-family: 'Poppins', sans-serif;\n    margin: 0 0 10px;\n  \">\n    STEP 2: <span style=\"font-weight: 400;\">CUSTOMIZE YOUR BRACELET</span>\n  </h2>\n  <p style=\"\n    color: #ffffffcc;\n    font-size: 14px;\n    font-family: 'Poppins', sans-serif;\n    margin: 0;\n  \">\n    You must add the bracelet to the cart to be eligible for the offer\n  </p>\n</section>",
+        "full_width": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_DYNpRA": {
       "type": "featured-collection",
       "settings": {
@@ -245,7 +255,7 @@
         "horizontal_scroll": false,
         "show_view_all": true,
         "show_divider": false,
-        "heading": "CUSTOMIZE YOUR BRACELET",
+        "heading": "",
         "heading_size": "h1",
         "heading_alignment": "center",
         "heading_tag": "h2",
@@ -669,6 +679,7 @@
     "custom_liquid_mfCkRi",
     "featured-product",
     "scrolling-promotion",
+    "custom_liquid_hCXQkT",
     "featured_collection_DYNpRA",
     "scrolling_promotion_HiHV48",
     "collection_list_gBwAYq",
