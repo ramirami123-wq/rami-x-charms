@@ -88,52 +88,10 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
-    },
-    "bar_eapWgH": {
-      "type": "bar",
-      "blocks": {
-        "text_LQhYmG": {
-          "type": "text",
-          "settings": {
-            "heading": "End of the month offer ends in:",
-            "color": "#ffffff",
-            "font_size": 24
-          }
-        },
-        "timer_rJjrYb": {
-          "type": "timer",
-          "settings": {
-            "year": "2025",
-            "month": "05",
-            "day": "05",
-            "hour": "23",
-            "minute": "00",
-            "hide_timer_on_completed": false,
-            "color": "#ffffff",
-            "font_size_number": 20,
-            "font_size_text": 10
-          }
-        }
-      },
-      "block_order": [
-        "text_LQhYmG",
-        "timer_rJjrYb"
-      ],
-      "name": "SS - Countdown Timer Bar",
-      "settings": {
-        "target_selector": ".header, .pageheader, .section-header, #announcement, .toolbar, .header__wrapper, .onboarding-header",
-        "use_cross": false,
-        "days_text": "Days",
-        "hours_text": "Hrs",
-        "mins_text": "Mins",
-        "seconds_text": "Secs",
-        "background-color": "#000000"
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "bar_eapWgH"
+    "header"
   ]
 }
