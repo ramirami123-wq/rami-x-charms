@@ -88,10 +88,52 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
+    },
+    "bar_xATnAe": {
+      "type": "bar",
+      "blocks": {
+        "text_eWfAfa": {
+          "type": "text",
+          "settings": {
+            "heading": "Mothers day sale! 70% OFF ends in:",
+            "color": "#ffffff",
+            "font_size": 24
+          }
+        },
+        "timer_hnG8Ak": {
+          "type": "timer",
+          "settings": {
+            "year": "2024",
+            "month": "01",
+            "day": "01",
+            "hour": "00",
+            "minute": "00",
+            "hide_timer_on_completed": false,
+            "color": "#FFFFFF",
+            "font_size_number": 20,
+            "font_size_text": 10
+          }
+        }
+      },
+      "block_order": [
+        "text_eWfAfa",
+        "timer_hnG8Ak"
+      ],
+      "name": "SS - Countdown Timer Bar",
+      "settings": {
+        "target_selector": ".header, .pageheader, .section-header, #announcement, .toolbar, .header__wrapper, .onboarding-header",
+        "use_cross": false,
+        "days_text": "Days",
+        "hours_text": "Hrs",
+        "mins_text": "Mins",
+        "seconds_text": "Secs",
+        "background-color": "#000000"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "bar_xATnAe"
   ]
 }
