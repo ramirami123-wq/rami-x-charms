@@ -88,52 +88,10 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
-    },
-    "bar_pRNwhG": {
-      "type": "bar",
-      "blocks": {
-        "text_9BVyzK": {
-          "type": "text",
-          "settings": {
-            "heading": "BUY 12 CHARMS GET THE BRACELET FOR FREE",
-            "color": "#ffffff",
-            "font_size": 24
-          }
-        },
-        "timer_hVEWAk": {
-          "type": "timer",
-          "settings": {
-            "year": "2025",
-            "month": "05",
-            "day": "22",
-            "hour": "23",
-            "minute": "00",
-            "hide_timer_on_completed": false,
-            "color": "#ffffff",
-            "font_size_number": 20,
-            "font_size_text": 10
-          }
-        }
-      },
-      "block_order": [
-        "text_9BVyzK",
-        "timer_hVEWAk"
-      ],
-      "name": "SS - Countdown Timer Bar",
-      "settings": {
-        "target_selector": ".header, .pageheader, .section-header, #announcement, .toolbar, .header__wrapper, .onboarding-header",
-        "use_cross": false,
-        "days_text": "Days",
-        "hours_text": "Hrs",
-        "mins_text": "Mins",
-        "seconds_text": "Secs",
-        "background-color": "#000000"
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "bar_pRNwhG"
+    "header"
   ]
 }
