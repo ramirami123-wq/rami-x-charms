@@ -105,7 +105,7 @@
           "settings": {
             "year": "2025",
             "month": "06",
-            "day": "12",
+            "day": "13",
             "hour": "23",
             "minute": "00",
             "hide_timer_on_completed": false,
@@ -119,7 +119,6 @@
         "text_CDDD9k",
         "timer_wyEeKW"
       ],
-      "name": "SS - Countdown Timer Bar",
       "settings": {
         "target_selector": ".header, .pageheader, .section-header, #announcement, .toolbar, .header__wrapper, .onboarding-header",
         "use_cross": false,
