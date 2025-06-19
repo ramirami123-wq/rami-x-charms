@@ -667,6 +667,26 @@
         "section_radius": 0,
         "lazy": true
       }
+    },
+    "1750356733ea06aa56": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_homepage_cyHKjE": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "product": "charm™-italian-bracelet"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_homepage_cyHKjE"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -681,6 +701,7 @@
     "featured_collection_z3hwnY",
     "collection_list_gBwAYq",
     "ss_steps_4_EBa966",
-    "ss_testimonial_17_3RRJYX"
+    "ss_testimonial_17_3RRJYX",
+    "1750356733ea06aa56"
   ]
 }
