@@ -60,7 +60,7 @@
     "shipping_calculator_default_country": "",
     "disable_view_cart": true,
     "show_free_shipping_message": true,
-    "free_shipping_minimum_amount": "50",
+    "free_shipping_minimum_amount": "45",
     "cart_recommendations_enabled": true,
     "cart_recommendations_heading": "You may also like",
     "cart_recommendations_show_vendor": false,
