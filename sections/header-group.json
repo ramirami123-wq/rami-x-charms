@@ -88,10 +88,52 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
+    },
+    "bar_im6hjG": {
+      "type": "bar",
+      "blocks": {
+        "text_8eyqEh": {
+          "type": "text",
+          "settings": {
+            "heading": "FREE BRACELET OFFER ENDS IN:",
+            "color": "#ffffff",
+            "font_size": 24
+          }
+        },
+        "timer_fKQbPE": {
+          "type": "timer",
+          "settings": {
+            "year": "2025",
+            "month": "06",
+            "day": "22",
+            "hour": "23",
+            "minute": "00",
+            "hide_timer_on_completed": false,
+            "color": "#FFFFFF",
+            "font_size_number": 20,
+            "font_size_text": 10
+          }
+        }
+      },
+      "block_order": [
+        "text_8eyqEh",
+        "timer_fKQbPE"
+      ],
+      "name": "SS - Countdown Timer Bar",
+      "settings": {
+        "target_selector": ".header, .pageheader, .section-header, #announcement, .toolbar, .header__wrapper, .onboarding-header",
+        "use_cross": false,
+        "days_text": "Days",
+        "hours_text": "Hrs",
+        "mins_text": "Mins",
+        "seconds_text": "Secs",
+        "background-color": "#000000"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "bar_im6hjG"
   ]
 }
