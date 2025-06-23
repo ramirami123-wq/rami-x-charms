@@ -105,11 +105,11 @@
           "settings": {
             "year": "2025",
             "month": "06",
-            "day": "22",
+            "day": "23",
             "hour": "22",
             "minute": "00",
             "hide_timer_on_completed": false,
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "font_size_number": 20,
             "font_size_text": 10
           }
