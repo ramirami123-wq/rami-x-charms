@@ -390,9 +390,10 @@
           "type": "guarantee",
           "settings": {
             "icon": "truck",
-            "icon_size": "medium",
+            "icon_size": "large",
+            "image": "shopify://shop_images/906709922412Love.gif",
             "custom_icon": "",
-            "title": "THE PERFECT GIFT FOR HER/HI",
+            "title": "THE PERFECT GIFT FOR HER/HIM",
             "title_size": "h3",
             "text": ""
           }
@@ -433,8 +434,8 @@
     "featured_collection_yXyp9V",
     "scrolling_promotion_KJmcXP",
     "ss_steps_4_RDR6Gh",
+    "guarantees_NNEPJA",
     "product-recommendations",
-    "174534765867b81348",
-    "guarantees_NNEPJA"
+    "174534765867b81348"
   ]
 }
