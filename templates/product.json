@@ -346,6 +346,85 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "guarantees_NNEPJA": {
+      "type": "guarantees",
+      "blocks": {
+        "guarantee_EArxLe": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "large",
+            "image": "shopify://shop_images/159167422933Diamond_1.webp",
+            "custom_icon": "",
+            "title": "HAND CRAFTED WITH CARE",
+            "title_size": "h3",
+            "text": ""
+          }
+        },
+        "guarantee_bnGGwm": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "large",
+            "image": "shopify://shop_images/234574661302Link.webp",
+            "custom_icon": "",
+            "title": "COMPLETELY CUSTOMIZEABLE",
+            "title_size": "h3",
+            "text": ""
+          }
+        },
+        "guarantee_8mUKBt": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "large",
+            "image": "shopify://shop_images/826340908983Water.webp",
+            "custom_icon": "",
+            "title": "SWEAT & WATERPROOF",
+            "title_size": "h3",
+            "text": ""
+          }
+        },
+        "guarantee_fzgrzn": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "THE PERFECT GIFT FOR HER/HI",
+            "title_size": "h3",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "guarantee_EArxLe",
+        "guarantee_bnGGwm",
+        "guarantee_8mUKBt",
+        "guarantee_fzgrzn"
+      ],
+      "name": "t:sections.guarantees.presets.name",
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "columns_desktop": 4,
+        "heading": "Guarantees",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "use_custom_colors": true,
+        "colors_icon": "#9e132b",
+        "colors_text": "#ffffff",
+        "colors_background": "#9e132b",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -355,6 +434,7 @@
     "scrolling_promotion_KJmcXP",
     "ss_steps_4_RDR6Gh",
     "product-recommendations",
-    "174534765867b81348"
+    "174534765867b81348",
+    "guarantees_NNEPJA"
   ]
 }
