@@ -38,7 +38,7 @@
           "settings": {
             "price_size": "medium",
             "show_badges": true,
-            "sale_badge_basis": "auto"
+            "sale_badge_basis": "value"
           }
         },
         "upload_lift_app_block_gqAtm9": {
