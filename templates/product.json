@@ -333,6 +333,7 @@
       "block_order": [
         "announcement_6DeKwB"
       ],
+      "disabled": true,
       "settings": {
         "direction": "left",
         "speed": 1.6,
