@@ -323,7 +323,7 @@
         "icon_border_color": "#121212",
         "icon_border_gradient": "",
         "text_color": "#121212",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#121212",
         "border_gradient": "",
@@ -592,7 +592,7 @@
         "featured_collection_iRWPgj": {
           "type": "featured_collection",
           "settings": {
-            "collection": "watches",
+            "collection": "new-collection",
             "image_position": "center center"
           }
         }
