@@ -15,7 +15,7 @@
         "heading_size": "h0",
         "show_description": true,
         "show_image": true,
-        "apply_overlay": true,
+        "apply_overlay": false,
         "image_position": "center center",
         "image_ratio": "550px",
         "text_alignment": "center",
