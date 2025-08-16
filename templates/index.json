@@ -102,12 +102,10 @@
     "featured-product": {
       "type": "featured-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
+        "custom_liquid_LebCmR": {
+          "type": "custom_liquid",
           "settings": {
-            "icon": "none",
-            "text": "⭐⭐⭐⭐⭐ Based on 800+ ratings",
-            "text_style": "uppercase"
+            "custom_liquid": ""
           }
         },
         "title": {
@@ -192,7 +190,7 @@
         }
       },
       "block_order": [
-        "vendor",
+        "custom_liquid_LebCmR",
         "title",
         "price",
         "custom_liquid_nPfkhV",
