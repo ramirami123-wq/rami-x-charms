@@ -162,6 +162,12 @@
             "show_gift_card_recipient": false
           }
         },
+        "custom_liquid_N9KqtD": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"display: flex; justify-content: space-around; margin-top: 15px; text-align: center; font-size: 14px; margin-bottom: 0.9rem;\">\n  <div style=\"flex: 1;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0731/4004/3999/files/Untitled_design__14_-removebg-preview.png?v=1754215427\" alt=\"\" style=\"width: 45px; height: 45px;\"><br>\n    <span>2-4 Delivery All Over 🇱🇧</span>\n  </div>\n  <div style=\"flex: 1;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0731/4004/3999/files/Untitled_design__15_-removebg-preview.png?v=1754215603\" alt=\"\" style=\"width: 45px; height: 45px;\"><br>\n    <span>Cash on Delivery</span>\n  </div>\n  <div style=\"flex: 1;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0731/4004/3999/files/Untitled_design_16.png?v=1754215644\" alt=\"\" style=\"width: 45px; height: 45px;\"><br>\n    <span>Lifetime Color Guarantee</span>\n  </div>\n</div>"
+          }
+        },
         "collapsible_tab_U7kj9Q": {
           "type": "collapsible_tab",
           "settings": {
@@ -187,6 +193,7 @@
         "variant_picker",
         "description",
         "buy_buttons",
+        "custom_liquid_N9KqtD",
         "collapsible_tab_U7kj9Q",
         "custom_liquid_xRfKaE"
       ],
@@ -908,7 +915,9 @@
         "judge_me_reviews_review_widget_homepage_cyHKjE": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "product": "charm™-italian-bracelet"
+            "product": "charm™-italian-bracelet",
+            "review_data": "sample_data",
+            "max_width": 1200
           }
         }
       },
