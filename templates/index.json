@@ -119,10 +119,6 @@
             "price_size": "medium"
           }
         },
-        "rating": {
-          "type": "rating",
-          "settings": {}
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -130,6 +126,17 @@
             "show_badges": true,
             "sale_badge_basis": "percentage"
           }
+        },
+        "custom_liquid_nPfkhV": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "✅ <b>No sizing needed</b> – you can easily add or remove charms to adjust it. <br><br> 🎨 <b>Lifetime color guarantee</b> <br><br> 🆓 <b>Buy 12 charms</b> to get <b>bracelet for free</b>"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {}
         },
         "custom_liquid_RriXCi": {
           "type": "custom_liquid",
@@ -187,8 +194,9 @@
       "block_order": [
         "vendor",
         "title",
-        "rating",
         "price",
+        "custom_liquid_nPfkhV",
+        "rating",
         "custom_liquid_RriXCi",
         "variant_picker",
         "description",
