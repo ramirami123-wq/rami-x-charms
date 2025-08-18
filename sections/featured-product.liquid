@@ -41,6 +41,7 @@
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
   <div class="page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
     <div class="featured-product product{% if section.settings.layout == 'text_first' %} product__grid--reverse{% endif %} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}{% unless section.settings.enable_image_zoom %} product--zoom-disabled{% endunless %}">
+      <a href="{{ product.url }}" class="product__view-details"></a>
       <div class="grid__item product__media-wrapper{% if section.settings.enable_layered_images %} product__media-layered{% elsif section.settings.image_ratio == 'adapt' and product.media.size > 1 %} product__media-slider--adapt{% endif %}">
         {%- unless section.settings.enable_layered_images -%}
           <use-animate data-animate="zoom-fade">
