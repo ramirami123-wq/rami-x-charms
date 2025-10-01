@@ -44,7 +44,7 @@
         "custom_liquid_EgkfLR": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "✅ <b>No sizing needed</b> – you can easily add or remove charms to adjust it. <br><br> 🎨 <b>Lifetime color guarantee</b> <br><br> 🆓 <b>Buy 12 charms</b> to get <b>bracelet for free</b>"
+            "custom_liquid": "💎 <b>Elegant teardrop crystal pendant</b> <br><br> \n✨ <b>Add charms for just $4 each</b> <br><br> \n🎁 <b>Perfect for gifting & surprises</b>"
           }
         },
         "upload_lift_app_block_gqAtm9": {
@@ -90,6 +90,7 @@
         },
         "collapsible_tab_Eafx6J": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "icon": "heart",
             "heading": "Description",
@@ -186,6 +187,7 @@
         "mobile_text_alignment": "center",
         "mobile_image_ratio": "auto",
         "enable_video_looping": false,
+        "video_url": "",
         "use_custom_colors": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
