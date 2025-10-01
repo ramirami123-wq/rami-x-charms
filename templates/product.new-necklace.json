@@ -47,6 +47,19 @@
             "custom_liquid": "💎 <b>Elegant teardrop crystal pendant</b> <br><br> \n✨ <b>Add charms for just $4 each</b> <br><br> \n🎁 <b>Perfect for gifting & surprises</b>"
           }
         },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "swatches_source": "file",
+            "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": ""
+          }
+        },
         "upload_lift_app_block_gqAtm9": {
           "type": "shopify://apps/upload-lift/blocks/app-block/3c98bdcb-7587-4ade-bfe4-7d8af00d05ca",
           "settings": {
@@ -59,19 +72,6 @@
           "disabled": true,
           "settings": {
             "custom_liquid": "<div style=\"border: 1px solid #e53935; background-color: #ffebee; text-align: center; padding: 30px; font-family: Arial, sans-serif; width: fit-content; margin: 50px auto;\">\n    <h3 style=\"letter-spacing: 2px; font-weight: 400; font-size: 14px; text-transform: uppercase; margin: 0; color: #333;\">\n     BUY 12 CHARMS & GET YOUR BRACELET FOR FREE!\n    </h3>\n    <p style=\"margin-top: 10px; font-size: 16px; color: #333;\">\n    Add your bracelet & charms of choice to cart and benefit from the offer.\n    </p>\n  </div>"
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "show_variant_labels": true,
-            "picker_type": "button",
-            "enable_color_swatches": true,
-            "swatches_source": "file",
-            "swatch_type": "round",
-            "enable_swatch_cross": true,
-            "enable_swatch_unavailable_click": false,
-            "size_chart": ""
           }
         },
         "buy_buttons": {
@@ -118,9 +118,9 @@
         "title",
         "price",
         "custom_liquid_EgkfLR",
+        "variant_picker",
         "upload_lift_app_block_gqAtm9",
         "custom_liquid_HR3dbn",
-        "variant_picker",
         "buy_buttons",
         "custom_liquid_34CBcM",
         "collapsible_tab_Eafx6J",
