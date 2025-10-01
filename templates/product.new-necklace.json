@@ -53,7 +53,7 @@
             "show_variant_labels": true,
             "picker_type": "button",
             "enable_color_swatches": true,
-            "swatches_source": "variant",
+            "swatches_source": "file",
             "swatch_type": "round",
             "enable_swatch_cross": true,
             "enable_swatch_unavailable_click": false,
