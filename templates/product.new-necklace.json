@@ -146,15 +146,65 @@
         "padding_bottom": 72
       }
     },
+    "image_with_text_T8JpnT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_PRGkCF": {
+          "type": "heading",
+          "settings": {
+            "heading": "KEEP YOUR LOVED ONES CLOSED",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_QWEYLf": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Personalize </strong>your locket with the charms you choose. Every charm is a symbol of what means the most to you. It’s a simple and elegant way to carry life’s most precious memories close to your heart.</p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PRGkCF",
+        "text_QWEYLf"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/CharmNecklace-3_81493587-bc12-4b0f-9bf6-0354d07489ae.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_yXyp9V": {
       "type": "featured-collection",
       "settings": {
-        "collection": "charms",
+        "collection": "new-concept",
         "products_to_show": 12,
         "horizontal_scroll": false,
         "show_view_all": true,
         "show_divider": false,
-        "heading": "CUSTOMIZE YOUR BRACELET",
+        "heading": "CUSTOMIZE YOUR NECKLACE",
         "heading_size": "h1",
         "heading_alignment": "center",
         "heading_tag": "h2",
@@ -582,56 +632,6 @@
       "settings": {
         "include_margins": true,
         "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_T8JpnT": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_PRGkCF": {
-          "type": "heading",
-          "settings": {
-            "heading": "KEEP YOUR LOVED ONES CLOSED",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "text_QWEYLf": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Personalize </strong>your locket with the charms you choose. Every charm is a symbol of what means the most to you. It’s a simple and elegant way to carry life’s most precious memories close to your heart.</p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_PRGkCF",
-        "text_QWEYLf"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/CharmNecklace-3_81493587-bc12-4b0f-9bf6-0354d07489ae.png",
-        "image_position": "center center",
-        "layout": "image_first",
-        "text_box_position": "middle",
-        "text_alignment": "center",
-        "image_ratio": "650px",
-        "enlarge_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "image_behavior": "none",
-        "mobile_layout": "image_first",
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "auto",
-        "enable_video_looping": false,
-        "use_custom_colors": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
