@@ -1,6 +1,688 @@
+{% doc %}
+  @prompt
+    do a guarantees section
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-guarantees-section-{{ ai_gen_id }} {
+    padding: {{ block.settings.section_padding_top }}px 0 {{ block.settings.section_padding_bottom }}px;
+    background-color: {{ block.settings.background_color }};
+  }
+
+  .ai-guarantees-container-{{ ai_gen_id }} {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .ai-guarantees-header-{{ ai_gen_id }} {
+    text-align: center;
+    margin-bottom: {{ block.settings.items_spacing }}px;
+  }
+
+  .ai-guarantees-title-{{ ai_gen_id }} {
+    font-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+    font-weight: {{ settings.type_header_font.weight }};
+    font-size: {{ block.settings.title_size }}px;
+    color: {{ block.settings.title_color }};
+    margin: 0 0 16px;
+    line-height: 1.2;
+  }
+
+  .ai-guarantees-subtitle-{{ ai_gen_id }} {
+    font-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+    font-weight: {{ settings.type_body_font.weight }};
+    font-size: {{ block.settings.subtitle_size }}px;
+    color: {{ block.settings.subtitle_color }};
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .ai-guarantees-grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: {{ block.settings.items_spacing }}px;
+    margin-top: {{ block.settings.items_spacing }}px;
+  }
+
+  .ai-guarantee-item-{{ ai_gen_id }} {
+    text-align: {{ block.settings.text_alignment }};
+    padding: {{ block.settings.item_padding }}px;
+    background-color: {{ block.settings.item_background_color }};
+    border-radius: {{ block.settings.item_border_radius }}px;
+    border: {{ block.settings.item_border_width }}px solid {{ block.settings.item_border_color }};
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .ai-guarantee-item-{{ ai_gen_id }}:hover {
+    transform: translateY(-{{ block.settings.hover_lift }}px);
+    box-shadow: 0 {{ block.settings.hover_lift | times: 2 }}px {{ block.settings.hover_lift | times: 4 }}px rgba(0, 0, 0, 0.1);
+  }
+
+  .ai-guarantee-icon-{{ ai_gen_id }} {
+    width: {{ block.settings.icon_size }}px;
+    height: {{ block.settings.icon_size }}px;
+    margin: 0 auto {{ block.settings.icon_spacing }}px;
+    background-color: {{ block.settings.icon_background_color }};
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: {{ block.settings.icon_color }};
+  }
+
+  .ai-guarantee-icon-{{ ai_gen_id }} svg {
+    width: {{ block.settings.icon_size | times: 0.6 }}px;
+    height: {{ block.settings.icon_size | times: 0.6 }}px;
+  }
+
+  .ai-guarantee-title-{{ ai_gen_id }} {
+    font-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+    font-weight: {{ settings.type_header_font.weight }};
+    font-size: {{ block.settings.guarantee_title_size }}px;
+    color: {{ block.settings.guarantee_title_color }};
+    margin: 0 0 12px;
+    line-height: 1.3;
+  }
+
+  .ai-guarantee-description-{{ ai_gen_id }} {
+    font-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+    font-weight: {{ settings.type_body_font.weight }};
+    font-size: {{ block.settings.guarantee_description_size }}px;
+    color: {{ block.settings.guarantee_description_color }};
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-guarantees-grid-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: {{ block.settings.items_spacing | times: 0.8 }}px;
+    }
+
+    .ai-guarantees-title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_size | times: 0.8 }}px;
+    }
+
+    .ai-guarantee-item-{{ ai_gen_id }} {
+      padding: {{ block.settings.item_padding | times: 0.8 }}px;
+    }
+
+    .ai-guarantee-icon-{{ ai_gen_id }} {
+      width: {{ block.settings.icon_size | times: 0.8 }}px;
+      height: {{ block.settings.icon_size | times: 0.8 }}px;
+    }
+
+    .ai-guarantee-icon-{{ ai_gen_id }} svg {
+      width: {{ block.settings.icon_size | times: 0.48 }}px;
+      height: {{ block.settings.icon_size | times: 0.48 }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-guarantees-section-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-guarantees-container-{{ ai_gen_id }}">
+    {% if block.settings.title != blank or block.settings.subtitle != blank %}
+      <div class="ai-guarantees-header-{{ ai_gen_id }}">
+        {% if block.settings.title != blank %}
+          <h2 class="ai-guarantees-title-{{ ai_gen_id }}">{{ block.settings.title }}</h2>
+        {% endif %}
+        {% if block.settings.subtitle != blank %}
+          <div class="ai-guarantees-subtitle-{{ ai_gen_id }}">{{ block.settings.subtitle }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="ai-guarantees-grid-{{ ai_gen_id }}">
+      {% for i in (1..4) %}
+        {% liquid
+          assign guarantee_enabled_key = 'guarantee_' | append: i | append: '_enabled'
+          assign guarantee_icon_key = 'guarantee_' | append: i | append: '_icon'
+          assign guarantee_title_key = 'guarantee_' | append: i | append: '_title'
+          assign guarantee_description_key = 'guarantee_' | append: i | append: '_description'
+
+          assign guarantee_enabled = block.settings[guarantee_enabled_key]
+          assign guarantee_icon = block.settings[guarantee_icon_key]
+          assign guarantee_title = block.settings[guarantee_title_key]
+          assign guarantee_description = block.settings[guarantee_description_key]
+        %}
+
+        {% if guarantee_enabled %}
+          <div class="ai-guarantee-item-{{ ai_gen_id }}">
+            <div class="ai-guarantee-icon-{{ ai_gen_id }}">
+              {% case guarantee_icon %}
+                {% when 'shield' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                {% when 'truck' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                  </svg>
+                {% when 'return' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
+                  </svg>
+                {% when 'heart' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                  </svg>
+                {% when 'star' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                  </svg>
+                {% when 'clock' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                {% when 'check' %}
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                {% else %}
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+              {% endcase %}
+            </div>
+            
+            {% if guarantee_title != blank %}
+              <h3 class="ai-guarantee-title-{{ ai_gen_id }}">{{ guarantee_title }}</h3>
+            {% endif %}
+            
+            {% if guarantee_description != blank %}
+              <div class="ai-guarantee-description-{{ ai_gen_id }}">{{ guarantee_description }}</div>
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Guarantees section",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section content"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section title",
+      "default": "Our Guarantees"
+    },
+    {
+      "type": "textarea",
+      "id": "subtitle",
+      "label": "Section subtitle",
+      "default": "Shop with confidence knowing we stand behind our products"
+    },
+    {
+      "type": "header",
+      "content": "Section style"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 60
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Title style"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "min": 16,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Title size",
+      "default": 32
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title color",
+      "default": "#1a1b18"
+    },
+    {
+      "type": "range",
+      "id": "subtitle_size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Subtitle size",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "subtitle_color",
+      "label": "Subtitle color",
+      "default": "#212326"
+    },
+    {
+      "type": "header",
+      "content": "Items layout"
+    },
+    {
+      "type": "range",
+      "id": "items_spacing",
+      "min": 16,
+      "max": 60,
+      "step": 4,
+      "unit": "px",
+      "label": "Items spacing",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "item_padding",
+      "min": 16,
+      "max": 60,
+      "step": 4,
+      "unit": "px",
+      "label": "Item padding",
+      "default": 32
+    },
+    {
+      "type": "color",
+      "id": "item_background_color",
+      "label": "Item background color",
+      "default": "#f9f9f9"
+    },
+    {
+      "type": "range",
+      "id": "item_border_radius",
+      "min": 0,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "label": "Item border radius",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "item_border_width",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "label": "Item border width",
+      "default": 0
+    },
+    {
+      "type": "color",
+      "id": "item_border_color",
+      "label": "Item border color",
+      "default": "#d2d5d9"
+    },
+    {
+      "type": "range",
+      "id": "hover_lift",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "unit": "px",
+      "label": "Hover lift effect",
+      "default": 4
+    },
+    {
+      "type": "header",
+      "content": "Icon style"
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "min": 40,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "label": "Icon size",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "icon_spacing",
+      "min": 8,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Icon spacing",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Icon color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "icon_background_color",
+      "label": "Icon background color",
+      "default": "#9e132b"
+    },
+    {
+      "type": "header",
+      "content": "Text style"
+    },
+    {
+      "type": "range",
+      "id": "guarantee_title_size",
+      "min": 14,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "label": "Guarantee title size",
+      "default": 18
+    },
+    {
+      "type": "color",
+      "id": "guarantee_title_color",
+      "label": "Guarantee title color",
+      "default": "#1a1b18"
+    },
+    {
+      "type": "range",
+      "id": "guarantee_description_size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Description size",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "guarantee_description_color",
+      "label": "Description color",
+      "default": "#212326"
+    },
+    {
+      "type": "header",
+      "content": "Guarantee 1"
+    },
+    {
+      "type": "checkbox",
+      "id": "guarantee_1_enabled",
+      "label": "Enable guarantee 1",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "guarantee_1_icon",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "shield",
+          "label": "Shield"
+        },
+        {
+          "value": "truck",
+          "label": "Truck"
+        },
+        {
+          "value": "return",
+          "label": "Return"
+        },
+        {
+          "value": "heart",
+          "label": "Heart"
+        },
+        {
+          "value": "star",
+          "label": "Star"
+        },
+        {
+          "value": "clock",
+          "label": "Clock"
+        },
+        {
+          "value": "check",
+          "label": "Check"
+        }
+      ],
+      "default": "shield"
+    },
+    {
+      "type": "text",
+      "id": "guarantee_1_title",
+      "label": "Title",
+      "default": "Quality Guarantee"
+    },
+    {
+      "type": "textarea",
+      "id": "guarantee_1_description",
+      "label": "Description",
+      "default": "We stand behind the quality of our products with a comprehensive guarantee."
+    },
+    {
+      "type": "header",
+      "content": "Guarantee 2"
+    },
+    {
+      "type": "checkbox",
+      "id": "guarantee_2_enabled",
+      "label": "Enable guarantee 2",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "guarantee_2_icon",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "shield",
+          "label": "Shield"
+        },
+        {
+          "value": "truck",
+          "label": "Truck"
+        },
+        {
+          "value": "return",
+          "label": "Return"
+        },
+        {
+          "value": "heart",
+          "label": "Heart"
+        },
+        {
+          "value": "star",
+          "label": "Star"
+        },
+        {
+          "value": "clock",
+          "label": "Clock"
+        },
+        {
+          "value": "check",
+          "label": "Check"
+        }
+      ],
+      "default": "truck"
+    },
+    {
+      "type": "text",
+      "id": "guarantee_2_title",
+      "label": "Title",
+      "default": "Free Shipping"
+    },
+    {
+      "type": "textarea",
+      "id": "guarantee_2_description",
+      "label": "Description",
+      "default": "Enjoy free shipping on all orders over $45. Fast and reliable delivery."
+    },
+    {
+      "type": "header",
+      "content": "Guarantee 3"
+    },
+    {
+      "type": "checkbox",
+      "id": "guarantee_3_enabled",
+      "label": "Enable guarantee 3",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "guarantee_3_icon",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "shield",
+          "label": "Shield"
+        },
+        {
+          "value": "truck",
+          "label": "Truck"
+        },
+        {
+          "value": "return",
+          "label": "Return"
+        },
+        {
+          "value": "heart",
+          "label": "Heart"
+        },
+        {
+          "value": "star",
+          "label": "Star"
+        },
+        {
+          "value": "clock",
+          "label": "Clock"
+        },
+        {
+          "value": "check",
+          "label": "Check"
+        }
+      ],
+      "default": "return"
+    },
+    {
+      "type": "text",
+      "id": "guarantee_3_title",
+      "label": "Title",
+      "default": "Easy Returns"
+    },
+    {
+      "type": "textarea",
+      "id": "guarantee_3_description",
+      "label": "Description",
+      "default": "Not satisfied? Return your purchase within 30 days for a full refund."
+    },
+    {
+      "type": "header",
+      "content": "Guarantee 4"
+    },
+    {
+      "type": "checkbox",
+      "id": "guarantee_4_enabled",
+      "label": "Enable guarantee 4",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "guarantee_4_icon",
+      "label": "Icon",
+      "options": [
+        {
+          "value": "shield",
+          "label": "Shield"
+        },
+        {
+          "value": "truck",
+          "label": "Truck"
+        },
+        {
+          "value": "return",
+          "label": "Return"
+        },
+        {
+          "value": "heart",
+          "label": "Heart"
+        },
+        {
+          "value": "star",
+          "label": "Star"
+        },
+        {
+          "value": "clock",
+          "label": "Clock"
+        },
+        {
+          "value": "check",
+          "label": "Check"
+        }
+      ],
+      "default": "heart"
+    },
+    {
+      "type": "text",
+      "id": "guarantee_4_title",
+      "label": "Title",
+      "default": "Customer Support"
+    },
+    {
+      "type": "textarea",
+      "id": "guarantee_4_description",
+      "label": "Description",
+      "default": "Our friendly customer support team is here to help you every step of the way."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Guarantees section"
+    }
+  ]
+}
 {% endschema %}
