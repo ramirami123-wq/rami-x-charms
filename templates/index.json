@@ -554,36 +554,6 @@
         "padding_bottom": 12
       }
     },
-    "featured_collection_z3hwnY": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "collection": "xx",
-        "products_to_show": 4,
-        "horizontal_scroll": false,
-        "show_view_all": true,
-        "show_divider": false,
-        "heading": "Summer 2025 collection",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "image_position": "center center",
-        "enable_image_fill": true,
-        "show_secondary_image": false,
-        "secondary_image_max": 1,
-        "show_vendor": false,
-        "show_rating": false,
-        "show_quick_buy": true,
-        "enable_quick_view": true,
-        "enable_color_swatches": true,
-        "enable_countdown": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "collection_list_gBwAYq": {
       "type": "collection-list",
       "blocks": {
@@ -949,7 +919,6 @@
     "featured_collection_DYNpRA",
     "ss_video_slider_kXmNkG",
     "scrolling_promotion_HiHV48",
-    "featured_collection_z3hwnY",
     "collection_list_gBwAYq",
     "ss_steps_4_EBa966",
     "ss_testimonial_17_3RRJYX",
