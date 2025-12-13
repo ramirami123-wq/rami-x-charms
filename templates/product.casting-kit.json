@@ -109,6 +109,12 @@
           "settings": {
             "show_quantity_selector": false
           }
+        },
+        "custom_liquid_ppDbJa": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<body>\n  <section class=\"cta-section\">\n    <a href=\"#\" class=\"cta-button\" aria-label=\"Buy now the perfect gift\">\n      <span class=\"cta-icon\" aria-hidden=\"true\">\n        <!-- Heart icon -->\n        <svg viewBox=\"0 0 24 24\" fill=\"none\">\n          <path d=\"M12 21s-7.2-4.5-9.5-8.3C.6 9.6 2.1 5.8 5.8 5.3c2-.3 3.6.7 4.4 2 0 0 .9-2.3 4.1-2.3 3.1 0 5.7 2.6 5.7 5.7 0 4.6-8 10.3-8 10.3Z\" fill=\"currentColor\"/>\n        </svg>\n      </span>\n      <span class=\"cta-text\">BUY NOW THE PERFECT GIFT.</span>\n    </a>\n\n    <style>\n      .cta-section{\n        width: 100%;\n        max-width: 720px;\n        margin: 0 auto;\n        padding: 10px 14px;\n        font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;\n      }\n\n      .cta-button{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        gap: 12px;\n        width: 100%;\n        padding: 16px 18px;\n        background: linear-gradient(135deg, #c00000, #b00000);\n        color: #ffffff;\n        text-decoration: none;\n        border-radius: 12px;\n        font-size: 16px;\n        font-weight: 800;\n        letter-spacing: .4px;\n        box-shadow: 0 6px 14px rgba(176,0,0,.35);\n        transition: transform .15s ease, box-shadow .15s ease, opacity .15s ease;\n      }\n\n      .cta-button:hover{\n        transform: translateY(-1px);\n        box-shadow: 0 8px 18px rgba(176,0,0,.45);\n        opacity: .95;\n      }\n\n      .cta-button:active{\n        transform: translateY(0);\n        box-shadow: 0 5px 12px rgba(176,0,0,.35);\n      }\n\n      .cta-icon{\n        display: inline-flex;\n        width: 22px;\n        height: 22px;\n        color: #ffffff;\n        flex: 0 0 22px;\n      }\n\n      .cta-icon svg{\n        width: 22px;\n        height: 22px;\n        display: block;\n      }\n\n      .cta-text{\n        line-height: 1;\n        white-space: nowrap;\n      }\n\n      /* Mobile */\n      @media (max-width: 420px){\n        .cta-button{\n          font-size: 15px;\n          padding: 15px 16px;\n        }\n      }\n    </style>\n  </section>\n</body>"
+          }
         }
       },
       "block_order": [
@@ -123,7 +129,8 @@
         "custom_liquid_34CBcM",
         "collapsible_tab_Eafx6J",
         "custom_liquid_97W9nE",
-        "sticky_cart"
+        "sticky_cart",
+        "custom_liquid_ppDbJa"
       ],
       "custom_css": [
         ".product-form__submit {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
@@ -143,175 +150,6 @@
         "show_mobile_thumbnails": true,
         "padding_top": 0,
         "padding_bottom": 72
-      }
-    },
-    "featured_collection_yXyp9V": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "charms",
-        "products_to_show": 12,
-        "horizontal_scroll": false,
-        "show_view_all": true,
-        "show_divider": false,
-        "heading": "CUSTOMIZE YOUR BRACELET",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "image_position": "center center",
-        "enable_image_fill": true,
-        "show_secondary_image": false,
-        "secondary_image_max": 1,
-        "show_vendor": false,
-        "show_rating": false,
-        "show_quick_buy": true,
-        "enable_quick_view": false,
-        "enable_color_swatches": true,
-        "enable_countdown": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "ss_video_slider_BzVdPR": {
-      "type": "ss-video-slider",
-      "blocks": {
-        "slide_E66Rax": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/AYASALEH.mp4",
-            "video_url": "",
-            "title": "Aya Saleh",
-            "stars_count": 5
-          }
-        },
-        "slide_JznBhn": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/SnapTik_App_7481596580622077206-HD.mp4",
-            "video_url": "",
-            "title": "Leila Ghanem",
-            "stars_count": 5
-          }
-        },
-        "slide_N9KbKd": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/SnapTik_App_7427809843223727382-HD.mp4",
-            "video_url": "",
-            "title": "Sarah Aoun",
-            "stars_count": 5
-          }
-        },
-        "slide_CqfCPk": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/IMG_4674.MOV",
-            "video_url": "",
-            "title": "Lenie",
-            "stars_count": 5
-          }
-        },
-        "slide_pyndaK": {
-          "type": "slide",
-          "settings": {
-            "video": "shopify://files/videos/2a405258fb2a49a0b6af006a0503d549.HD-1080p-7.2Mbps-52430263.mp4",
-            "video_url": "",
-            "title": "Larissa Matta",
-            "stars_count": 5
-          }
-        }
-      },
-      "block_order": [
-        "slide_E66Rax",
-        "slide_JznBhn",
-        "slide_N9KbKd",
-        "slide_CqfCPk",
-        "slide_pyndaK"
-      ],
-      "name": "SS - Video slider",
-      "settings": {
-        "slider_view": 5,
-        "slider_view_mobile": 1.5,
-        "slider_gap": 10,
-        "slider_gap_mobile": 10,
-        "slider_rotate": 0,
-        "card_padding_vertical": 20,
-        "card_padding_vertical_mobile": 20,
-        "card_padding_horizontal": 20,
-        "card_padding_horizontal_mobile": 20,
-        "card_radius": 16,
-        "card_border_thickness": 0,
-        "card_shadow": false,
-        "card_ratio": "portrait",
-        "card_ratio_mobile": "portrait",
-        "card_overlay": 0.2,
-        "content_horizontal_position": "center",
-        "content_horizontal_position_mobile": "center",
-        "content_vertical_position": "end",
-        "content_vertical_position_mobile": "end",
-        "title_custom": false,
-        "title_font": "josefin_sans_n4",
-        "title_size": 16,
-        "title_size_mobile": 16,
-        "title_height": 100,
-        "stars_size": 16,
-        "stars_size_mobile": 16,
-        "stars_mt": 16,
-        "stars_mt_mobile": 16,
-        "hide_stars": false,
-        "use_action": true,
-        "action_size": 40,
-        "action_size_mobile": 40,
-        "action_icon_size": 24,
-        "action_icon_size_mobile": 24,
-        "action_border_thickness": 0,
-        "use_sound": true,
-        "sound_size": 40,
-        "sound_size_mobile": 40,
-        "sound_icon_size": 24,
-        "sound_icon_size_mobile": 24,
-        "sound_border_thickness": 0,
-        "arrow_size": 48,
-        "arrow_size_mobile": 48,
-        "arrow_icon_size": 8,
-        "arrow_icon_size_mobile": 8,
-        "arrow_border_thickness": 0,
-        "arrow_radius": 100,
-        "arrow_hover_effect": "color",
-        "arrow_show_desktop": true,
-        "arrow_show_mobile": false,
-        "title_color": "#ffffff",
-        "stars_color": "#ffffff",
-        "card_border_color": "#121212",
-        "card_shadow_color": "#121212",
-        "card_overlay_color": "#121212",
-        "action_color": "#ffffff",
-        "action_hover_color": "#ffffff",
-        "action_bg_color": "#ffffff",
-        "action_bg_hover_color": "#ffffff",
-        "action_border_color": "#ffffff",
-        "action_border_hover_color": "#ffffff",
-        "arrow_color": "#ffffff",
-        "arrow_hover_color": "#434343",
-        "arrow_bg_color": "#434343",
-        "arrow_bg_hover_color": "#ffffff",
-        "arrow_border_color": "#121212",
-        "arrow_border_hover_color": "#121212",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#121212",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "full_width": false,
-        "content_width": 1200,
-        "border_thickness": 0,
-        "lazy": true
       }
     },
     "scrolling_promotion_KJmcXP": {
@@ -344,116 +182,6 @@
         "gradient_background": "",
         "padding_top": 20,
         "padding_bottom": 20
-      }
-    },
-    "ss_steps_4_RDR6Gh": {
-      "type": "ss-steps-4",
-      "blocks": {
-        "step_G9Fink": {
-          "type": "step",
-          "settings": {
-            "image": "shopify://shop_images/animation-3-composable-v1_5924c9b0-a024-4046-926a-2b6c9ac213c1.webp",
-            "text": "<p>Expand the charms of your bracelet by pulling them apart.</p>"
-          }
-        },
-        "step_447VGR": {
-          "type": "step",
-          "settings": {
-            "image": "shopify://shop_images/animation-2-composable_b7380ecf-21fb-4353-9732-7bf7d469b292.webp",
-            "text": "<p>Grasp the two Links you want to separate and unhook them.</p>"
-          }
-        },
-        "step_EKXfHk": {
-          "type": "step",
-          "settings": {
-            "image": "shopify://shop_images/animation-1-composable_57aad4c9-37a5-4f37-985b-f1021619e2e7.webp",
-            "text": "<p>Insert and connect the new Charm, or remove an old one.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "step_G9Fink",
-        "step_447VGR",
-        "step_EKXfHk"
-      ],
-      "settings": {
-        "heading": "<p><strong>HOW DO I ADD CHARMS?</strong></p>",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 44,
-        "heading_size_mobile": 32,
-        "heading_height": 130,
-        "heading_align": "center",
-        "heading_align_mobile": "center",
-        "body_gap": 64,
-        "body_gap_mobile": 56,
-        "body_mt": 72,
-        "body_mt_mobile": 50,
-        "use_slider": true,
-        "slider_view_mobile": 1.3,
-        "slider_gap_mobile": 20,
-        "image_radius": 16,
-        "image_border_thickness": 2,
-        "image_ratio": "square",
-        "image_ratio_mobile": "square",
-        "circle_number_size": 40,
-        "circle_number_size_mobile": 40,
-        "number_custom": false,
-        "number_font": "josefin_sans_n4",
-        "number_size": 18,
-        "number_size_mobile": 18,
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 18,
-        "text_size_mobile": 18,
-        "text_height": 130,
-        "text_mt": 24,
-        "text_align": "center",
-        "text_align_mobile": "center",
-        "button": "",
-        "button_url": "",
-        "button_custom": false,
-        "button_font": "josefin_sans_n4",
-        "button_size": 16,
-        "button_size_mobile": 16,
-        "button_height": 100,
-        "button_width": 200,
-        "button_width_mobile": 200,
-        "button_mt": 70,
-        "button_mt_mobile": 32,
-        "button_padding_vertical": 14,
-        "button_padding_vertical_mobile": 14,
-        "button_padding_horizontal": 22,
-        "button_padding_horizontal_mobile": 22,
-        "button_radius": 100,
-        "button_border_thickness": 0,
-        "button_align": "center",
-        "button_align_mobile": "center",
-        "button_style": "non_outline",
-        "image_border_color": "#9e132b",
-        "circle_number_bg_color": "#9e132b",
-        "number_color": "#ffffff",
-        "text_color": "#000000",
-        "button_color": "#ffffff",
-        "button_hover_color": "#ffffff",
-        "button_bg_color": "#000000",
-        "button_bg_hover_color": "#000000",
-        "button_border_color": "#000000",
-        "button_border_hover_color": "#000000",
-        "heading_color": "#000000",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 130,
-        "border_thickness": 0,
-        "lazy": true
       }
     },
     "guarantees_NNEPJA": {
@@ -514,6 +242,7 @@
         "guarantee_8mUKBt",
         "guarantee_fzgrzn"
       ],
+      "disabled": true,
       "name": "t:sections.guarantees.presets.name",
       "settings": {
         "layout": "default",
@@ -584,17 +313,65 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_KG6QBw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_yGWUpE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Create unforgettable and unique love gift.",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_MQMKTD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Making and creating sculptures is guaranteed to be a great fun activity for everyone. A great way to make the moment unforgettable for any occasion.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yGWUpE",
+        "text_MQMKTD"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/image_with_text_ef1dd97a-3098-4971-97b3-8adf0bc226d7.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "empty-space",
     "main",
-    "featured_collection_yXyp9V",
-    "ss_video_slider_BzVdPR",
     "scrolling_promotion_KJmcXP",
-    "ss_steps_4_RDR6Gh",
     "guarantees_NNEPJA",
     "product-recommendations",
-    "174534765867b81348"
+    "174534765867b81348",
+    "image_with_text_KG6QBw"
   ]
 }
