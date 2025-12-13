@@ -95,7 +95,7 @@
         "text_VUCEni": {
           "type": "text",
           "settings": {
-            "heading": "BRACELET OFFER ENDS IN:",
+            "heading": "OFFER ENDS IN:",
             "color": "#ffffff",
             "font_size": 24
           }
