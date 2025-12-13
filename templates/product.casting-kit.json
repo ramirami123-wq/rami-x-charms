@@ -84,7 +84,7 @@
         "custom_liquid_34CBcM": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"display: flex; justify-content: space-around; margin-top: 15px; text-align: center; font-size: 14px; margin-bottom: 0.9rem;\">\n  <div style=\"flex: 1;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0731/4004/3999/files/Untitled_design__14_-removebg-preview.png?v=1754215427\" alt=\"\" style=\"width: 45px; height: 45px;\"><br>\n    <span>2-4 Delivery All Over 🇱🇧</span>\n  </div>\n  <div style=\"flex: 1;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0731/4004/3999/files/Untitled_design__15_-removebg-preview.png?v=1754215603\" alt=\"\" style=\"width: 45px; height: 45px;\"><br>\n    <span>Cash on Delivery</span>\n  </div>\n  <div style=\"flex: 1;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0731/4004/3999/files/Untitled_design_16.png?v=1754215644\" alt=\"\" style=\"width: 45px; height: 45px;\"><br>\n    <span>Lifetime Color Guarantee</span>\n  </div>\n</div>"
+            "custom_liquid": "<div style=\"display: flex; justify-content: space-around; margin-top: 15px; text-align: center; font-size: 14px; margin-bottom: 0.9rem;\">\n  <div style=\"flex: 1;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0731/4004/3999/files/Untitled_design__14_-removebg-preview.png?v=1754215427\" alt=\"\" style=\"width: 45px; height: 45px;\"><br>\n    <span>2-4 Delivery All Over 🇱🇧</span>\n  </div>\n  <div style=\"flex: 1;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0731/4004/3999/files/Untitled_design__15_-removebg-preview.png?v=1754215603\" alt=\"\" style=\"width: 45px; height: 45px;\"><br>\n    <span>Cash on Delivery</span>\n  </div>\n  <div style=\"flex: 1;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0731/4004/3999/files/Untitled_design_16.png?v=1754215644\" alt=\"\" style=\"width: 45px; height: 45px;\"><br>\n    <span>Money-back Guarantee</span>\n  </div>\n</div>"
           }
         },
         "collapsible_tab_Eafx6J": {
@@ -109,12 +109,6 @@
           "settings": {
             "show_quantity_selector": false
           }
-        },
-        "custom_liquid_ppDbJa": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<body>\n  <section class=\"cta-section\">\n    <a href=\"#\" class=\"cta-button\" aria-label=\"Buy now the perfect gift\">\n      <span class=\"cta-icon\" aria-hidden=\"true\">\n        <!-- Heart icon -->\n        <svg viewBox=\"0 0 24 24\" fill=\"none\">\n          <path d=\"M12 21s-7.2-4.5-9.5-8.3C.6 9.6 2.1 5.8 5.8 5.3c2-.3 3.6.7 4.4 2 0 0 .9-2.3 4.1-2.3 3.1 0 5.7 2.6 5.7 5.7 0 4.6-8 10.3-8 10.3Z\" fill=\"currentColor\"/>\n        </svg>\n      </span>\n      <span class=\"cta-text\">BUY NOW THE PERFECT GIFT.</span>\n    </a>\n\n    <style>\n      .cta-section{\n        width: 100%;\n        max-width: 720px;\n        margin: 0 auto;\n        padding: 10px 14px;\n        font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;\n      }\n\n      .cta-button{\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        gap: 12px;\n        width: 100%;\n        padding: 16px 18px;\n        background: linear-gradient(135deg, #c00000, #b00000);\n        color: #ffffff;\n        text-decoration: none;\n        border-radius: 12px;\n        font-size: 16px;\n        font-weight: 800;\n        letter-spacing: .4px;\n        box-shadow: 0 6px 14px rgba(176,0,0,.35);\n        transition: transform .15s ease, box-shadow .15s ease, opacity .15s ease;\n      }\n\n      .cta-button:hover{\n        transform: translateY(-1px);\n        box-shadow: 0 8px 18px rgba(176,0,0,.45);\n        opacity: .95;\n      }\n\n      .cta-button:active{\n        transform: translateY(0);\n        box-shadow: 0 5px 12px rgba(176,0,0,.35);\n      }\n\n      .cta-icon{\n        display: inline-flex;\n        width: 22px;\n        height: 22px;\n        color: #ffffff;\n        flex: 0 0 22px;\n      }\n\n      .cta-icon svg{\n        width: 22px;\n        height: 22px;\n        display: block;\n      }\n\n      .cta-text{\n        line-height: 1;\n        white-space: nowrap;\n      }\n\n      /* Mobile */\n      @media (max-width: 420px){\n        .cta-button{\n          font-size: 15px;\n          padding: 15px 16px;\n        }\n      }\n    </style>\n  </section>\n</body>"
-          }
         }
       },
       "block_order": [
@@ -129,8 +123,7 @@
         "custom_liquid_34CBcM",
         "collapsible_tab_Eafx6J",
         "custom_liquid_97W9nE",
-        "sticky_cart",
-        "custom_liquid_ppDbJa"
+        "sticky_cart"
       ],
       "custom_css": [
         ".product-form__submit {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
