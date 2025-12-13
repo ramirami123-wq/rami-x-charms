@@ -44,14 +44,13 @@
         "custom_liquid_EgkfLR": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "✅ <b>No sizing needed</b> – you can easily add or remove charms to adjust it. <br><br> 🎨 <b>Lifetime color guarantee</b> <br><br> 🆓 <b>Buy 12 charms</b> to get <b>bracelet for free</b>"
+            "custom_liquid": "<b>Create your own unique hand sculpture now! Share the experience with your loved ones. The best way to capture the memories you'll hold in your hands for years to come. Eternal keepsake to preserve the moment.\n\n</b>"
           }
         },
-        "upload_lift_app_block_gqAtm9": {
-          "type": "shopify://apps/upload-lift/blocks/app-block/3c98bdcb-7587-4ade-bfe4-7d8af00d05ca",
+        "custom_liquid_DtAcLb": {
+          "type": "custom_liquid",
           "settings": {
-            "product": "{{product}}",
-            "field": ""
+            "custom_liquid": "<body>\n  <section class=\"usp-list\" aria-label=\"Key benefits\">\n    <div class=\"usp-item\">\n      <span class=\"usp-icon\" aria-hidden=\"true\">\n        <!-- Smiley in circle -->\n        <svg viewBox=\"0 0 24 24\" fill=\"none\">\n          <path d=\"M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z\" fill=\"currentColor\"/>\n          <path d=\"M8.4 10.3a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0ZM17.8 10.3a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0Z\" fill=\"#fff\"/>\n          <path d=\"M7.7 13.6c1.1 2 3.1 3.3 4.3 3.3s3.2-1.3 4.3-3.3\" stroke=\"#fff\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n        </svg>\n      </span>\n      <span class=\"usp-text\">Fantastic activity together</span>\n    </div>\n\n    <div class=\"usp-item\">\n      <span class=\"usp-icon\" aria-hidden=\"true\">\n        <!-- Sparkle -->\n        <svg viewBox=\"0 0 24 24\" fill=\"none\">\n          <path d=\"M12 2.5l1.2 4.2c.3 1 .9 1.6 1.9 1.9l4.2 1.2-4.2 1.2c-1 .3-1.6.9-1.9 1.9L12 19.5l-1.2-4.2c-.3-1-.9-1.6-1.9-1.9L4.7 12l4.2-1.2c1-.3 1.6-.9 1.9-1.9L12 2.5Z\" fill=\"currentColor\"/>\n          <path d=\"M18.5 3.6l.5 1.7c.1.4.4.6.8.8l1.7.5-1.7.5c-.4.1-.6.4-.8.8l-.5 1.7-.5-1.7c-.1-.4-.4-.6-.8-.8l-1.7-.5 1.7-.5c.4-.1.6-.4.8-.8l.5-1.7Z\" fill=\"currentColor\" opacity=\".9\"/>\n        </svg>\n      </span>\n      <span class=\"usp-text\">Everything you need in one box</span>\n    </div>\n\n    <div class=\"usp-item\">\n      <span class=\"usp-icon\" aria-hidden=\"true\">\n        <!-- Gift -->\n        <svg viewBox=\"0 0 24 24\" fill=\"none\">\n          <path d=\"M4 10h16v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10Z\" fill=\"currentColor\"/>\n          <path d=\"M3 8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2H3V8Z\" fill=\"currentColor\" opacity=\".9\"/>\n          <path d=\"M12 6v16\" stroke=\"#fff\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n          <path d=\"M12 6c-1.8 0-3.2-.9-3.2-2.1S10.2 2 12 4c1.8-2 3.2-1.2 3.2-.1S13.8 6 12 6Z\" fill=\"#fff\"/>\n        </svg>\n      </span>\n      <span class=\"usp-text\">Unique and special gift idea</span>\n    </div>\n\n    <div class=\"usp-item\">\n      <span class=\"usp-icon\" aria-hidden=\"true\">\n        <!-- Shield check -->\n        <svg viewBox=\"0 0 24 24\" fill=\"none\">\n          <path d=\"M12 2.5 20 6v7.1c0 4.9-3.4 8.4-8 9.9-4.6-1.5-8-5-8-9.9V6l8-3.5Z\" fill=\"currentColor\"/>\n          <path d=\"M8.3 12.3l2.2 2.2 5.2-5.2\" stroke=\"#fff\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n        </svg>\n      </span>\n      <span class=\"usp-text\">Full 100% money-back guarantee</span>\n    </div>\n\n    <style>\n      .usp-list{\n        width: 100%;\n        max-width: 720px;\n        margin: 0 auto;\n        padding: 14px 14px 6px;\n        font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;\n      }\n\n      .usp-item{\n        display: flex;\n        align-items: center;\n        gap: 12px;\n        background: #e9e9e9;\n        border-radius: 12px;\n        padding: 12px 14px;\n        margin: 10px 0;\n        border: 1px solid rgba(0,0,0,.06);\n      }\n\n      .usp-icon{\n        width: 34px;\n        height: 34px;\n        display: inline-flex;\n        align-items: center;\n        justify-content: center;\n        border-radius: 10px;\n        background: #f4f4f4;\n        border: 1px solid rgba(0,0,0,.08);\n        flex: 0 0 34px;\n        color: #111;\n      }\n\n      .usp-icon svg{\n        width: 20px;\n        height: 20px;\n        display: block;\n      }\n\n      .usp-text{\n        font-size: 16px;\n        font-weight: 700;\n        color: #1b1b1b;\n        line-height: 1.2;\n        letter-spacing: .1px;\n      }\n\n      /* Mobile tweaks */\n      @media (max-width: 420px){\n        .usp-item{ padding: 11px 12px; }\n        .usp-text{ font-size: 15px; }\n        .usp-icon{ width: 32px; height: 32px; flex-basis: 32px; }\n        .usp-icon svg{ width: 19px; height: 19px; }\n      }\n    </style>\n  </section>\n</body>"
           }
         },
         "custom_liquid_HR3dbn": {
@@ -117,7 +116,7 @@
         "title",
         "price",
         "custom_liquid_EgkfLR",
-        "upload_lift_app_block_gqAtm9",
+        "custom_liquid_DtAcLb",
         "custom_liquid_HR3dbn",
         "variant_picker",
         "buy_buttons",
@@ -568,7 +567,12 @@
       "blocks": {
         "judge_me_reviews_review_widget_NkHAqM": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
         }
       },
       "block_order": [
