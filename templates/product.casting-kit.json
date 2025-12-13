@@ -152,6 +152,56 @@
         "padding_bottom": 72
       }
     },
+    "image_with_text_KG6QBw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_yGWUpE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Create unforgettable and unique love gift.",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_MQMKTD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Making and creating sculptures is guaranteed to be a great fun activity for everyone. A great way to make the moment unforgettable for any occasion.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yGWUpE",
+        "text_MQMKTD"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/image_with_text_ef1dd97a-3098-4971-97b3-8adf0bc226d7.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "scrolling_promotion_KJmcXP": {
       "type": "scrolling-promotion",
       "blocks": {
@@ -170,7 +220,6 @@
       "block_order": [
         "announcement_6DeKwB"
       ],
-      "disabled": true,
       "settings": {
         "direction": "left",
         "speed": 1.6,
@@ -184,82 +233,51 @@
         "padding_bottom": 20
       }
     },
-    "guarantees_NNEPJA": {
-      "type": "guarantees",
+    "image_with_text_9gxMhE": {
+      "type": "image-with-text",
       "blocks": {
-        "guarantee_EArxLe": {
-          "type": "guarantee",
+        "heading_V7WNJG": {
+          "type": "heading",
           "settings": {
-            "icon": "truck",
-            "icon_size": "large",
-            "image": "shopify://shop_images/159167422933Diamond_1.webp",
-            "custom_icon": "",
-            "title": "HAND CRAFTED WITH CARE",
-            "title_size": "h3",
-            "text": ""
+            "heading": "Amazingly detailed.",
+            "heading_size": "h1",
+            "heading_tag": "h2"
           }
         },
-        "guarantee_bnGGwm": {
-          "type": "guarantee",
+        "text_YVLne6": {
+          "type": "text",
           "settings": {
-            "icon": "truck",
-            "icon_size": "large",
-            "image": "shopify://shop_images/234574661302Link.webp",
-            "custom_icon": "",
-            "title": "COMPLETELY CUSTOMIZEABLE",
-            "title_size": "h3",
-            "text": ""
-          }
-        },
-        "guarantee_8mUKBt": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "large",
-            "image": "shopify://shop_images/826340908983Water.webp",
-            "custom_icon": "",
-            "title": "SWEAT & WATERPROOF",
-            "title_size": "h3",
-            "text": ""
-          }
-        },
-        "guarantee_fzgrzn": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "large",
-            "image": "shopify://shop_images/906709922412Love.gif",
-            "custom_icon": "",
-            "title": "THE PERFECT GIFT FOR HER/HIM",
-            "title_size": "h3",
-            "text": ""
+            "text": "<p>Thanks to our unique formula, the alginate powder captures every detail of your hands. It can even safely mold jewelry and rings.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
           }
         }
       },
       "block_order": [
-        "guarantee_EArxLe",
-        "guarantee_bnGGwm",
-        "guarantee_8mUKBt",
-        "guarantee_fzgrzn"
+        "heading_V7WNJG",
+        "text_YVLne6"
       ],
-      "disabled": true,
-      "name": "t:sections.guarantees.presets.name",
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
+        "image": "shopify://shop_images/image_with_text_ef1dd97a-3098-4971-97b3-8adf0bc226d7.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
         "full_width": false,
         "show_divider": false,
-        "columns_desktop": 4,
-        "heading": "Guarantees",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "use_custom_colors": true,
-        "colors_icon": "#9e132b",
-        "colors_text": "#ffffff",
-        "colors_background": "#9e132b",
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -313,65 +331,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_with_text_KG6QBw": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_yGWUpE": {
-          "type": "heading",
-          "settings": {
-            "heading": "Create unforgettable and unique love gift.",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "text_MQMKTD": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Making and creating sculptures is guaranteed to be a great fun activity for everyone. A great way to make the moment unforgettable for any occasion.</p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_yGWUpE",
-        "text_MQMKTD"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/image_with_text_ef1dd97a-3098-4971-97b3-8adf0bc226d7.png",
-        "image_position": "center center",
-        "layout": "image_first",
-        "text_box_position": "middle",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "enlarge_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "image_behavior": "none",
-        "mobile_layout": "image_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "enable_video_looping": false,
-        "use_custom_colors": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "empty-space",
     "main",
+    "image_with_text_KG6QBw",
     "scrolling_promotion_KJmcXP",
-    "guarantees_NNEPJA",
+    "image_with_text_9gxMhE",
     "product-recommendations",
-    "174534765867b81348",
-    "image_with_text_KG6QBw"
+    "174534765867b81348"
   ]
 }
