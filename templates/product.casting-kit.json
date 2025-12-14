@@ -83,6 +83,7 @@
         },
         "custom_liquid_34CBcM": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<body>\n  <section class=\"info-icons\">\n    <div class=\"info-item\">\n      <span class=\"info-icon\">\n        <!-- Hands / molding icon -->\n        <svg viewBox=\"0 0 24 24\" fill=\"none\">\n          <path d=\"M7 12v-2a2 2 0 1 1 4 0v2\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n          <path d=\"M11 12v-3a2 2 0 1 1 4 0v3\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n          <path d=\"M15 12v-2a2 2 0 1 1 4 0v4c0 3-2 6-6 6H9c-3 0-5-2-5-5v-1\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n        </svg>\n      </span>\n      <span class=\"info-text\">DIY Hand Casting Kit</span>\n    </div>\n\n    <div class=\"info-item\">\n      <span class=\"info-icon\">\n        <!-- Baby icon -->\n        <svg viewBox=\"0 0 24 24\" fill=\"none\">\n          <circle cx=\"12\" cy=\"8\" r=\"3\" fill=\"currentColor\"/>\n          <path d=\"M5 21c0-3.9 3.1-7 7-7s7 3.1 7 7\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n          <path d=\"M9 7c0-2 1.5-3.5 3-3.5S15 5 15 7\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n        </svg>\n      </span>\n      <span class=\"info-text\">Perfect for Ages 0–3</span>\n    </div>\n\n    <div class=\"info-item\">\n      <span class=\"info-icon\">\n        <!-- Safety heart icon -->\n        <svg viewBox=\"0 0 24 24\" fill=\"none\">\n          <path d=\"M12 21s-7-4.4-9.2-8.1C1 9.8 2.4 6.3 6 6c2-.2 3.4.8 4 1.9.6-1.1 2-2.1 4-1.9 3.6.3 5 3.8 3.2 6.9C19 16.6 12 21 12 21Z\" fill=\"currentColor\"/>\n        </svg>\n      </span>\n      <span class=\"info-text\">Baby Safe Materials</span>\n    </div>\n\n    <style>\n      .info-icons{\n        display: flex;\n        justify-content: space-around;\n        gap: 12px;\n        margin: 15px auto 0.9rem;\n        max-width: 720px;\n        font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;\n        text-align: center;\n      }\n\n      .info-item{\n        flex: 1;\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        gap: 6px;\n        font-size: 14px;\n        color: #111;\n      }\n\n      .info-icon{\n        width: 45px;\n        height: 45px;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        color: #000;\n      }\n\n      .info-icon svg{\n        width: 32px;\n        height: 32px;\n        display: block;\n      }\n\n      .info-text{\n        font-weight: 600;\n        line-height: 1.2;\n      }\n\n      @media (max-width: 420px){\n        .info-text{ font-size: 13px; }\n        .info-icon{ width: 40px; height: 40px; }\n        .info-icon svg{ width: 28px; height: 28px; }\n      }\n    </style>\n  </section>\n</body>"
           }
@@ -278,6 +279,65 @@
         "padding_bottom": 36
       }
     },
+    "faq_AT647i": {
+      "type": "faq",
+      "blocks": {
+        "question_E3e4d7": {
+          "type": "question",
+          "settings": {
+            "title": "Is this molding material safe to use on my baby’s skin?",
+            "text": "<p>Absolutely. The molding ingredients are formulated to be hypoallergenic, non-toxic, and gentle enough for newborn skin. They do not cause irritation and are safe for even the most delicate babies.</p>"
+          }
+        },
+        "question_DtFg7f": {
+          "type": "question",
+          "settings": {
+            "title": "How long does it take to complete from start to finish?",
+            "text": "<p>It’s a fast and straightforward process. The mold sets in about two minutes, and after you pour the cast, it needs just a few hours to harden. You’ll have a finished keepsake you can show off before the day is over.</p>"
+          }
+        },
+        "question_bcVLp7": {
+          "type": "question",
+          "settings": {
+            "title": "What comes inside the kit?",
+            "text": "<p>Inside the box, you’ll find everything needed for a beautiful hand or footprint cast. The molding blend, casting material, stir stick, simple instructions, a perfectly fitted frame, and a customizable plaque.It’s all packaged elegantly, making it a great gift right out of the box.</p>"
+          }
+        },
+        "question_VYxD8y": {
+          "type": "question",
+          "settings": {
+            "title": "What if it doesn't work on the first try?",
+            "text": "<p><strong>Don't worry anything.98% is the success rate of the making the sculptures.If even so you have a problem just contact us and we will help you.</strong></p>"
+          }
+        },
+        "question_UEeYjg": {
+          "type": "question",
+          "settings": {
+            "title": "How many people can make it together?",
+            "text": "<p><strong>two people can make it. Plus a kid hand also fits there.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_E3e4d7",
+        "question_DtFg7f",
+        "question_bcVLp7",
+        "question_VYxD8y",
+        "question_UEeYjg"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "narrow": false,
+        "secondary_background": true,
+        "show_divider": false,
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "video_iQ9Qer": {
       "type": "video",
       "name": "t:sections.video.presets.name",
@@ -341,65 +401,6 @@
       "settings": {
         "include_margins": true,
         "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "faq_AT647i": {
-      "type": "faq",
-      "blocks": {
-        "question_E3e4d7": {
-          "type": "question",
-          "settings": {
-            "title": "Is this molding material safe to use on my baby’s skin?",
-            "text": "<p>Absolutely. The molding ingredients are formulated to be hypoallergenic, non-toxic, and gentle enough for newborn skin. They do not cause irritation and are safe for even the most delicate babies.</p>"
-          }
-        },
-        "question_DtFg7f": {
-          "type": "question",
-          "settings": {
-            "title": "How long does it take to complete from start to finish?",
-            "text": "<p>It’s a fast and straightforward process. The mold sets in about two minutes, and after you pour the cast, it needs just a few hours to harden. You’ll have a finished keepsake you can show off before the day is over.</p>"
-          }
-        },
-        "question_bcVLp7": {
-          "type": "question",
-          "settings": {
-            "title": "What comes inside the kit?",
-            "text": "<p>Inside the box, you’ll find everything needed for a beautiful hand or footprint cast. The molding blend, casting material, stir stick, simple instructions, a perfectly fitted frame, and a customizable plaque.It’s all packaged elegantly, making it a great gift right out of the box.</p>"
-          }
-        },
-        "question_VYxD8y": {
-          "type": "question",
-          "settings": {
-            "title": "What if it doesn't work on the first try?",
-            "text": "<p><strong>Don't worry anything.98% is the success rate of the making the sculptures.If even so you have a problem just contact us and we will help you.</strong></p>"
-          }
-        },
-        "question_UEeYjg": {
-          "type": "question",
-          "settings": {
-            "title": "How many people can make it together?",
-            "text": "<p><strong>two people can make it. Plus a kid hand also fits there.</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "question_E3e4d7",
-        "question_DtFg7f",
-        "question_bcVLp7",
-        "question_VYxD8y",
-        "question_UEeYjg"
-      ],
-      "name": "t:sections.faq.presets.name",
-      "settings": {
-        "narrow": false,
-        "secondary_background": true,
-        "show_divider": false,
-        "heading": "FAQs",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
         "padding_top": 36,
         "padding_bottom": 36
       }
