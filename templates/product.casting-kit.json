@@ -278,6 +278,24 @@
         "padding_bottom": 36
       }
     },
+    "video_iQ9Qer": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/GpOCfrOQj7M?si=Oxru548asKXHufW5",
+        "cover_image": "shopify://shop_images/Screenshot_270.png",
+        "description": "",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "How To Use Our Hand Casting Kit",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -326,33 +344,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "video_iQ9Qer": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "enable_video_looping": true,
-        "video": "shopify://files/videos/7398209a1ee9486ab2b575ebdf3d4ba6.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "empty-space",
     "main",
-    "video_iQ9Qer",
     "image_with_text_KG6QBw",
     "scrolling_promotion_KJmcXP",
     "image_with_text_9gxMhE",
+    "video_iQ9Qer",
     "product-recommendations",
     "174534765867b81348"
   ]
