@@ -344,6 +344,65 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "faq_AT647i": {
+      "type": "faq",
+      "blocks": {
+        "question_E3e4d7": {
+          "type": "question",
+          "settings": {
+            "title": "Is this molding material safe to use on my baby’s skin?",
+            "text": "<p>Absolutely. The molding ingredients are formulated to be hypoallergenic, non-toxic, and gentle enough for newborn skin. They do not cause irritation and are safe for even the most delicate babies.</p>"
+          }
+        },
+        "question_DtFg7f": {
+          "type": "question",
+          "settings": {
+            "title": "How long does it take to complete from start to finish?",
+            "text": "<p>It’s a fast and straightforward process. The mold sets in about two minutes, and after you pour the cast, it needs just a few hours to harden. You’ll have a finished keepsake you can show off before the day is over.</p>"
+          }
+        },
+        "question_bcVLp7": {
+          "type": "question",
+          "settings": {
+            "title": "What comes inside the kit?",
+            "text": "<p>Inside the box, you’ll find everything needed for a beautiful hand or footprint cast. The molding blend, casting material, stir stick, simple instructions, a perfectly fitted frame, and a customizable plaque.It’s all packaged elegantly, making it a great gift right out of the box.</p>"
+          }
+        },
+        "question_VYxD8y": {
+          "type": "question",
+          "settings": {
+            "title": "What if it doesn't work on the first try?",
+            "text": "<p><strong>Don't worry anything.98% is the success rate of the making the sculptures.If even so you have a problem just contact us and we will help you.</strong></p>"
+          }
+        },
+        "question_UEeYjg": {
+          "type": "question",
+          "settings": {
+            "title": "How many people can make it together?",
+            "text": "<p><strong>two people can make it. Plus a kid hand also fits there.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_E3e4d7",
+        "question_DtFg7f",
+        "question_bcVLp7",
+        "question_VYxD8y",
+        "question_UEeYjg"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "narrow": false,
+        "secondary_background": true,
+        "show_divider": false,
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -352,6 +411,7 @@
     "image_with_text_KG6QBw",
     "scrolling_promotion_KJmcXP",
     "image_with_text_9gxMhE",
+    "faq_AT647i",
     "video_iQ9Qer",
     "product-recommendations",
     "174534765867b81348"
