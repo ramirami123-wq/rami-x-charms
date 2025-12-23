@@ -157,6 +157,56 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_nXUftD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iXBLT9": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Small Ritual, A Big Shift",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_YDzkxd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ear seeding isn’t just something you wear It’s a moment for yourself.Each seed is placed with intention, helping you feel more grounded, calmer, and connected throughout the day. Subtle, natural, and deeply personal.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iXBLT9",
+        "text_YDzkxd"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2025-12-16_193254.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "174534765867b81348": {
       "type": "apps",
       "blocks": {
@@ -179,12 +229,55 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_cxBfwP": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_8patGG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Non-invasive & pain-free<br/>* Stays on for days<br/>* Suitable for daily wear<br/>* Designed to support balance & relaxation<br/><br/>Just place, press gently, and let it work with your body.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "text_8patGG"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/6_1eef0f29-583c-4fcf-a423-93253dae75bf.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "empty-space",
     "main",
     "product-recommendations",
-    "174534765867b81348"
+    "image_with_text_nXUftD",
+    "174534765867b81348",
+    "image_with_text_cxBfwP"
   ]
 }
