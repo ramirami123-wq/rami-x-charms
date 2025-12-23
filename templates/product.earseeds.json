@@ -41,6 +41,12 @@
             "sale_badge_basis": "value"
           }
         },
+        "custom_liquid_jDWEiV": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<b>😌 Stress & Anxiety</b> — Feel calmer, lighter, and more in control daily.\n<br>\n<br>\n\n<b>🍽️ Craving Control</b> — Reduce appetite and stop emotional snacking.\n<br>\n<br>\n\n<b>🩹 Pain Relief</b> — Ease tension, headaches, and body discomfort."
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -97,6 +103,7 @@
         "custom_liquid_fXf6gg",
         "title",
         "price",
+        "custom_liquid_jDWEiV",
         "variant_picker",
         "buy_buttons",
         "custom_liquid_34CBcM",
