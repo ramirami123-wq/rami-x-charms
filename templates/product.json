@@ -110,12 +110,6 @@
           "settings": {
             "show_quantity_selector": false
           }
-        },
-        "vo_product_options_block_BEQHFE": {
-          "type": "shopify://apps/vo-product-options/blocks/block/430cbd7b-bd20-4c16-ba41-db6f4c645164",
-          "settings": {
-            "font_color": ""
-          }
         }
       },
       "block_order": [
@@ -130,8 +124,7 @@
         "custom_liquid_34CBcM",
         "collapsible_tab_Eafx6J",
         "custom_liquid_97W9nE",
-        "sticky_cart",
-        "vo_product_options_block_BEQHFE"
+        "sticky_cart"
       ],
       "custom_css": [
         ".product-form__submit {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
