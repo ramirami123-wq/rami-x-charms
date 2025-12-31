@@ -1,0 +1,283 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 36,
+        "mobile_height": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "custom_liquid_fXf6gg": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .star-review-wrapper {\n    display: flex;\n    align-items: center;\n    justify-content: flex-start !important;\n    gap: 12px;\n    margin: 20px 0;\n    text-align: center;\n    flex-direction: row;\n    flex-wrap: wrap;\n  }\n\n  .star-icons {\n    display: flex;\n    gap: 1px;\n    font-size: 20px;\n    color: #9E132B;\n    flex-shrink: 0;\n  }\n\n  .review-text {\n    font-size: 16px;\n    font-weight: 500;\n    color: #333;\n    white-space: nowrap;\n  }\n\n  @media (max-width: 480px) {\n    .star-review-wrapper {\n      flex-direction: row;\n      justify-content: center;\n    }\n\n    .review-text {\n      font-size: 15px;\n    }\n  }\n</style>\n\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <span>★</span>\n    <span>★</span>\n    <span>★</span>\n    <span>★</span>\n    <span>★</span>\n  </div>\n  <div class=\"review-text\">\n   <strong>4.7</strong> based on <strong>1240+</strong> ratings\n  </div>\n</div>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": true,
+            "sale_badge_basis": "value"
+          }
+        },
+        "custom_liquid_jDWEiV": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<b>😌 Stress & Anxiety</b> — Feel calmer, lighter, and more in control daily.\n<br>\n<br>\n\n<b>🍽️ Craving Control</b> — Reduce appetite and stop emotional snacking.\n<br>\n<br>\n\n<b>🩹 Pain Relief</b> — Ease tension, headaches, and body discomfort."
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "swatches_source": "file",
+            "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "custom_liquid_34CBcM": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div style=\"display: flex; justify-content: space-around; margin-top: 15px; text-align: center; font-size: 14px; margin-bottom: 0.9rem;\">\n  <div style=\"flex: 1;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0731/4004/3999/files/Untitled_design__14_-removebg-preview.png?v=1754215427\" alt=\"\" style=\"width: 45px; height: 45px;\"><br>\n    <span>2-4 Delivery All Over 🇱🇧</span>\n  </div>\n  <div style=\"flex: 1;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0731/4004/3999/files/Untitled_design__15_-removebg-preview.png?v=1754215603\" alt=\"\" style=\"width: 45px; height: 45px;\"><br>\n    <span>Cash on Delivery</span>\n  </div>\n  <div style=\"flex: 1;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0731/4004/3999/files/Untitled_design_16.png?v=1754215644\" alt=\"\" style=\"width: 45px; height: 45px;\"><br>\n    <span>Lifetime Color Guarantee</span>\n  </div>\n</div>"
+          }
+        },
+        "collapsible_tab_Eafx6J": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "heart",
+            "heading": "Description",
+            "content": "<p><strong>Material </strong>| Made of high-quality, durable and waterproof stainless steel.</p><p><strong>Size </strong>| Our bracelets feature 17 charm links that expand and contract to fit your wrist perfectly. All our charms are compatible so you can easily add and remove links as you wish</p><p><strong>Note </strong>| This is the original charms bracelet by Charms</p>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "custom_liquid_97W9nE": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive by <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2);\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 3);\n\n        var formatDate = function(date) {\n            var dayNames = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n                \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var month = monthNames[date.getMonth()];\n            var weekday = dayNames[date.getDay()];\n            return weekday + \", \" + month + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' – ' + formatDate(maxDeliveryDate);\n    });\n</script>"
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "show_quantity_selector": false
+          }
+        }
+      },
+      "block_order": [
+        "custom_liquid_fXf6gg",
+        "title",
+        "price",
+        "custom_liquid_jDWEiV",
+        "variant_picker",
+        "buy_buttons",
+        "custom_liquid_34CBcM",
+        "collapsible_tab_Eafx6J",
+        "custom_liquid_97W9nE",
+        "sticky_cart"
+      ],
+      "custom_css": [
+        ".product-form__submit {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "medium",
+        "gallery_layout": "thumbnail_slider",
+        "image_ratio": "adapt",
+        "show_featured_media": false,
+        "show_thumbnails": true,
+        "hide_variants": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt_first",
+        "show_mobile_thumbnails": true,
+        "padding_top": 0,
+        "padding_bottom": 72
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_list_limit": 4,
+        "show_divider": false,
+        "heading": "You May Also Like",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_nXUftD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iXBLT9": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Small Ritual, A Big Shift",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_YDzkxd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ear seeding isn’t just something you wear It’s a moment for yourself.Each seed is placed with intention, helping you feel more grounded, calmer, and connected throughout the day. Subtle, natural, and deeply personal.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iXBLT9",
+        "text_YDzkxd"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2025-12-16_193254.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "174534765867b81348": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_NkHAqM": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_NkHAqM"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_cxBfwP": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_8patGG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Non-invasive & pain-free<br/>* Stays on for days<br/>* Suitable for daily wear<br/>* Designed to support balance & relaxation<br/><br/>Just place, press gently, and let it work with your body.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "text_8patGG"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/6_1eef0f29-583c-4fcf-a423-93253dae75bf.webp",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "empty-space",
+    "main",
+    "product-recommendations",
+    "image_with_text_nXUftD",
+    "174534765867b81348",
+    "image_with_text_cxBfwP"
+  ]
+}
