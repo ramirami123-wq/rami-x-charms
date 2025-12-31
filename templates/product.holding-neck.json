@@ -170,7 +170,7 @@
         "heading_iXBLT9": {
           "type": "heading",
           "settings": {
-            "heading": "A Small Ritual, A Big Shift",
+            "heading": "A Gift That Holds an Emotional Value",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -178,7 +178,7 @@
         "text_YDzkxd": {
           "type": "text",
           "settings": {
-            "text": "<p>Ear seeding isn’t just something you wear It’s a moment for yourself.Each seed is placed with intention, helping you feel more grounded, calmer, and connected throughout the day. Subtle, natural, and deeply personal.</p>",
+            "text": "<p>Memories don’t last forever, but you can keep them close. Engrave your favorite moments and carry them with you every day.</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -215,29 +215,6 @@
         "padding_bottom": 36
       }
     },
-    "174534765867b81348": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_NkHAqM": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "sample_data",
-            "max_width": 1200,
-            "show_shop_reviews": false,
-            "empty_state": "empty_widget"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_NkHAqM"
-      ],
-      "settings": {
-        "include_margins": true,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_cxBfwP": {
       "type": "image-with-text",
       "blocks": {
@@ -253,6 +230,7 @@
       "block_order": [
         "text_8patGG"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/6_1eef0f29-583c-4fcf-a423-93253dae75bf.webp",
@@ -279,6 +257,29 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "174534765867b81348": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_NkHAqM": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_NkHAqM"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -286,7 +287,7 @@
     "main",
     "product-recommendations",
     "image_with_text_nXUftD",
-    "174534765867b81348",
-    "image_with_text_cxBfwP"
+    "image_with_text_cxBfwP",
+    "174534765867b81348"
   ]
 }
