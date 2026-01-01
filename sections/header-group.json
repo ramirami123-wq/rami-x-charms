@@ -104,8 +104,8 @@
           "type": "timer",
           "settings": {
             "year": "2025",
-            "month": "12",
-            "day": "31",
+            "month": "01",
+            "day": "02",
             "hour": "23",
             "minute": "00",
             "hide_timer_on_completed": false,
