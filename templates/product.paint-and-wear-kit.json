@@ -44,7 +44,7 @@
         "custom_liquid_EgkfLR": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "✅ <b>No sizing needed</b> – you can easily add or remove charms to adjust it. <br><br> 🎨 <b>Lifetime color guarantee</b> <br><br> 🆓 <b>Buy 12 charms</b> to get <b>bracelet for free</b>"
+            "custom_liquid": "🎨 <b>Wash-safe fabric paint</b> – designs stay on, no fading or cracking. <br><br>\n👕 <b>Multiple sizes available</b> – choose the perfect fit for both T-shirts. <br><br>\n🎁 <b>Perfect gift idea</b> – fun to make, meaningful to keep."
           }
         },
         "upload_lift_app_block_gqAtm9": {
@@ -92,8 +92,8 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "heart",
-            "heading": "Description",
-            "content": "<p><strong>Material </strong>| Made of high-quality, durable and waterproof stainless steel.</p><p><strong>Size </strong>| Our bracelets feature 17 charm links that expand and contract to fit your wrist perfectly. All our charms are compatible so you can easily add and remove links as you wish</p><p><strong>Note </strong>| This is the original charms bracelet by Charms</p>",
+            "heading": "What's included?",
+            "content": "<p><br/>This kit includes two premium blank T-shirts designed for painting, along with wash-safe fabric paint and the essential tools needed to create your designs. Everything comes ready to use, so you can start painting right away and turn a simple moment into something personal you’ll actually wear and keep.<br/><br/></p>",
             "page": "",
             "custom_liquid": "",
             "keep_open": false
