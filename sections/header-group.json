@@ -22,20 +22,10 @@
             "text_size": 13,
             "link": ""
           }
-        },
-        "announcement_kMLVxM": {
-          "type": "announcement",
-          "settings": {
-            "text": "BUY 12 CHARMS AND GET THE BRACELET FOR FREE",
-            "text_on_mobile": "",
-            "text_size": 13,
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_kMLVxM"
+        "announcement-bar-0"
       ],
       "settings": {
         "only_homepage": false,
