@@ -461,6 +461,180 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "ss_testimonial_17_WaaeQj": {
+      "type": "ss-testimonial-17",
+      "blocks": {
+        "testimonial_ARKHJE": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/20260108-195336_1588x_1.png",
+            "text": "<p>I was hesitant at first, but it exceeded all expectations. Elegant and very personal.</p>",
+            "author": "khalil Koumajian"
+          }
+        },
+        "testimonial_NeL3Ex": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/20260108-195307_1588x_356acc5d-8777-4d13-8f88-64bd0bf7805f.png",
+            "text": "<p>Gave this to my parents for Christmas and it became their favorite home piece instantly.</p>",
+            "author": "Lara"
+          }
+        },
+        "testimonial_mcbPbP": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/03_1000x_a4c3fcdf-b5dc-484c-a55a-aa55fba363ee.png",
+            "text": "<p>Perfect Valentine’s gift. Amazing quality, beautiful packaging, and very high-end.</p>",
+            "author": "Samir R."
+          }
+        },
+        "testimonial_dtKYYR": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/01_1000x_bf39d55a-ebb4-4a42-8125-a0993e11fd1f.png",
+            "text": "<p>A beautiful memorial piece that brought real comfort to our family. Elegant and deeply meaningful.</p>",
+            "author": "Sara K."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_ARKHJE",
+        "testimonial_NeL3Ex",
+        "testimonial_mcbPbP",
+        "testimonial_dtKYYR"
+      ],
+      "name": "SS - Testimonials #17",
+      "settings": {
+        "body_gap": 60,
+        "body_gap_mobile": 20,
+        "content_padding_vertical": 30,
+        "content_padding_vertical_mobile": 20,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "center",
+        "stars_count": 5,
+        "stars_size": 18,
+        "review_before_text": "Excellent 4.7/5",
+        "review_after_text": "based on 147+ reviews.",
+        "review_text_custom": false,
+        "review_text_font": "josefin_sans_n4",
+        "review_text_size": 14,
+        "review_text_size_mobile": 14,
+        "review_text_height": 130,
+        "heading": "<h2>Trusted by Customers</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 64,
+        "heading_size_mobile": 44,
+        "heading_height": 130,
+        "heading_mt": 8,
+        "heading_mt_mobile": 8,
+        "text": "",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 14,
+        "text_height": 150,
+        "text_mt": 12,
+        "text_mt_mobile": 12,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_mt": 36,
+        "button_mt_mobile": 24,
+        "button_padding_vertical": 12,
+        "button_padding_vertical_mobile": 12,
+        "button_padding_horizontal": 40,
+        "button_padding_horizontal_mobile": 40,
+        "button_radius": 100,
+        "button_border_thickness": 0,
+        "button_style": "non_outline",
+        "slider_gap": 20,
+        "slider_gap_mobile": 16,
+        "image_radius": 0,
+        "image_border_thickness": 0,
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "slide_content_padding_vertical": 16,
+        "slide_content_padding_vertical_mobile": 16,
+        "slide_content_padding_horizontal": 10,
+        "slide_content_padding_horizontal_mobile": 10,
+        "slide_content_radius": 16,
+        "slide_content_border_thickness": 0,
+        "slide_content_mt": 20,
+        "slide_content_mt_mobile": 20,
+        "slide_text_custom": false,
+        "slide_text_font": "josefin_sans_n4",
+        "slide_text_size": 14,
+        "slide_text_size_mobile": 14,
+        "slide_text_height": 150,
+        "slide_author_custom": false,
+        "slide_author_font": "josefin_sans_n4",
+        "slide_author_size": 14,
+        "slide_author_size_mobile": 14,
+        "slide_author_height": 150,
+        "slide_author_mt": 10,
+        "slide_author_mt_mobile": 8,
+        "arrow_size": 40,
+        "arrow_size_mobile": 40,
+        "arrow_icon_size": 8,
+        "arrow_icon_size_mobile": 8,
+        "arrow_border_thickness": 0,
+        "arrow_radius": 100,
+        "arrow_hover_effect": "color",
+        "arrow_vertical_position": 50,
+        "arrow_vertical_position_mobile": 50,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "stars_color": "#ffffff",
+        "review_text_color": "#ffffff",
+        "heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "button_color": "#FFFFFF",
+        "button_hover_color": "#FFFFFF",
+        "button_bg_color": "#000000",
+        "button_bg_hover_color": "#555555",
+        "button_border_color": "#B5B5B5",
+        "button_border_hover_color": "#555555",
+        "image_border_color": "#000000",
+        "slide_content_bg_color": "#FFFFFF",
+        "slide_content_border_color": "#000000",
+        "slide_text_color": "#000000",
+        "slide_author_color": "#000000",
+        "arrow_color": "#ffffff",
+        "arrow_hover_color": "#FFFFFF",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#000000",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#000000",
+        "background_color": "#9e132b",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "empty_space_qdQnPw": {
+      "type": "empty-space",
+      "name": "t:sections.empty-space.presets.name",
+      "settings": {
+        "desktop_height": 40,
+        "mobile_height": 28
+      }
     }
   },
   "order": [
@@ -471,6 +645,8 @@
     "scrolling_promotion_DQwBBF",
     "multicolumn_8AdyPa",
     "guarantees_NNEPJA",
-    "174534765867b81348"
+    "174534765867b81348",
+    "ss_testimonial_17_WaaeQj",
+    "empty_space_qdQnPw"
   ]
 }
