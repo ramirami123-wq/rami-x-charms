@@ -100,7 +100,7 @@
           "settings": {
             "icon": "none",
             "heading": "What's Included",
-            "content": "<ul><li>Frames</li><li>Small Frames</li><li>10 Characters</li></ul>",
+            "content": "<ul><li>Frames</li><li>Small Frames</li><li>10 Characters</li><li>Led Lights</li><li>Free Customization</li></ul>",
             "page": "",
             "custom_liquid": "",
             "keep_open": false
@@ -289,46 +289,10 @@
             "text_size": 20,
             "link": ""
           }
-        },
-        "announcement_eWACUY": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "Welcome to our store",
-            "text_size": 20,
-            "link": ""
-          }
-        },
-        "announcement_KUrt4e": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "Welcome to our store",
-            "text_size": 20,
-            "link": ""
-          }
-        },
-        "announcement_DrEfUx": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "Welcome to our store",
-            "text_size": 20,
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "announcement_WtiU6c",
-        "announcement_eWACUY",
-        "announcement_KUrt4e",
-        "announcement_DrEfUx"
+        "announcement_WtiU6c"
       ],
       "name": "t:sections.scrolling-promotion.presets.name",
       "settings": {
