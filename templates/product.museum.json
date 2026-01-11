@@ -372,96 +372,6 @@
         "padding_bottom": 36
       }
     },
-    "guarantees_NNEPJA": {
-      "type": "guarantees",
-      "blocks": {
-        "guarantee_EArxLe": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "large",
-            "image": "shopify://shop_images/159167422933Diamond_1.webp",
-            "custom_icon": "",
-            "title": "HAND CRAFTED WITH CARE",
-            "title_size": "h3",
-            "text": ""
-          }
-        },
-        "guarantee_bnGGwm": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "large",
-            "image": "shopify://shop_images/234574661302Link.webp",
-            "custom_icon": "",
-            "title": "CUSTOMIZEABLE",
-            "title_size": "h3",
-            "text": ""
-          }
-        },
-        "guarantee_fzgrzn": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "large",
-            "image": "shopify://shop_images/906709922412Love.gif",
-            "custom_icon": "",
-            "title": "THE PERFECT GIFT FOR HER/HIM",
-            "title_size": "h3",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "guarantee_EArxLe",
-        "guarantee_bnGGwm",
-        "guarantee_fzgrzn"
-      ],
-      "name": "t:sections.guarantees.presets.name",
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "columns_desktop": 4,
-        "heading": "Guarantees",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "use_custom_colors": true,
-        "colors_icon": "#9e132b",
-        "colors_text": "#ffffff",
-        "colors_background": "#9e132b",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "174534765867b81348": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_NkHAqM": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "sample_data",
-            "max_width": 1200,
-            "show_shop_reviews": false,
-            "empty_state": "empty_widget"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_NkHAqM"
-      ],
-      "settings": {
-        "include_margins": true,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "ss_testimonial_17_WaaeQj": {
       "type": "ss-testimonial-17",
       "blocks": {
@@ -628,6 +538,81 @@
         "lazy": true
       }
     },
+    "empty_space_yLyc6m": {
+      "type": "empty-space",
+      "name": "t:sections.empty-space.presets.name",
+      "settings": {
+        "desktop_height": 40,
+        "mobile_height": 28
+      }
+    },
+    "guarantees_NNEPJA": {
+      "type": "guarantees",
+      "blocks": {
+        "guarantee_EArxLe": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "large",
+            "image": "shopify://shop_images/159167422933Diamond_1.webp",
+            "custom_icon": "",
+            "title": "HAND CRAFTED WITH CARE",
+            "title_size": "h3",
+            "text": ""
+          }
+        },
+        "guarantee_bnGGwm": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "large",
+            "image": "shopify://shop_images/234574661302Link.webp",
+            "custom_icon": "",
+            "title": "CUSTOMIZEABLE",
+            "title_size": "h3",
+            "text": ""
+          }
+        },
+        "guarantee_fzgrzn": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "large",
+            "image": "shopify://shop_images/906709922412Love.gif",
+            "custom_icon": "",
+            "title": "THE PERFECT GIFT FOR HER/HIM",
+            "title_size": "h3",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "guarantee_EArxLe",
+        "guarantee_bnGGwm",
+        "guarantee_fzgrzn"
+      ],
+      "name": "t:sections.guarantees.presets.name",
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "columns_desktop": 4,
+        "heading": "Guarantees",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "use_custom_colors": true,
+        "colors_icon": "#9e132b",
+        "colors_text": "#ffffff",
+        "colors_background": "#9e132b",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "empty_space_qdQnPw": {
       "type": "empty-space",
       "name": "t:sections.empty-space.presets.name",
@@ -644,9 +629,9 @@
     "product-recommendations",
     "scrolling_promotion_DQwBBF",
     "multicolumn_8AdyPa",
-    "guarantees_NNEPJA",
-    "174534765867b81348",
     "ss_testimonial_17_WaaeQj",
+    "empty_space_yLyc6m",
+    "guarantees_NNEPJA",
     "empty_space_qdQnPw"
   ]
 }
