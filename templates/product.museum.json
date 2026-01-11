@@ -259,19 +259,7 @@
             "icon_size": "large",
             "image": "shopify://shop_images/234574661302Link.webp",
             "custom_icon": "",
-            "title": "COMPLETELY CUSTOMIZEABLE",
-            "title_size": "h3",
-            "text": ""
-          }
-        },
-        "guarantee_8mUKBt": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "large",
-            "image": "shopify://shop_images/826340908983Water.webp",
-            "custom_icon": "",
-            "title": "SWEAT & WATERPROOF",
+            "title": "CUSTOMIZEABLE",
             "title_size": "h3",
             "text": ""
           }
@@ -292,7 +280,6 @@
       "block_order": [
         "guarantee_EArxLe",
         "guarantee_bnGGwm",
-        "guarantee_8mUKBt",
         "guarantee_fzgrzn"
       ],
       "name": "t:sections.guarantees.presets.name",
