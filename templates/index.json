@@ -762,6 +762,7 @@
         "testimonial_EpXkBa",
         "testimonial_wHrgQD"
       ],
+      "disabled": true,
       "settings": {
         "body_gap": 60,
         "body_gap_mobile": 20,
