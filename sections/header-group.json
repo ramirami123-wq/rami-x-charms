@@ -14,19 +14,10 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_nmXMYh": {
-          "type": "announcement",
-          "settings": {
-            "text": "VALENTINE OFFER 30% OFF",
-            "text_on_mobile": "",
-            "text_size": 13,
-            "link": ""
-          }
-        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "FREE DELIVERY FOR ORDERS ABOVE 45$",
+            "text": "FREE DELIVERY FOR ORDERS ABOVE 25$",
             "text_on_mobile": "",
             "text_size": 13,
             "link": ""
@@ -34,7 +25,6 @@
         }
       },
       "block_order": [
-        "announcement_nmXMYh",
         "announcement-bar-0"
       ],
       "settings": {
