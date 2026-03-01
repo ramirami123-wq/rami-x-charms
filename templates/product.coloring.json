@@ -44,7 +44,7 @@
         "custom_liquid_jDWEiV": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<b>😌 Stress & Anxiety</b> — Feel calmer, lighter, and more in control daily.\n<br>\n<br>\n\n<b>🍽️ Craving Control</b> — Reduce appetite and stop emotional snacking.\n<br>\n<br>\n\n<b>🩹 Pain Relief</b> — Ease tension, headaches, and body discomfort."
+            "custom_liquid": "<b>🎨 Mess-Free Creativity</b> — Let your child enjoy coloring without paint, stains, or cleanup stress.\n<br>\n<br>\n\n<b>🧠 Calm & Focus Time</b> — Keeps kids quietly engaged and improves concentration.\n<br>\n<br>\n\n<b>✨ Reusable Fun</b> — Colors magically appear with water and disappear when dry."
           }
         },
         "variant_picker": {
@@ -197,6 +197,7 @@
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
         "enable_video_looping": false,
+        "video_url": "",
         "use_custom_colors": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
@@ -261,6 +262,7 @@
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "adapt",
         "enable_video_looping": false,
+        "video_url": "",
         "use_custom_colors": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
