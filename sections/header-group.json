@@ -14,6 +14,15 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_akbkxx": {
+          "type": "announcement",
+          "settings": {
+            "text": "SITE-WIDE RESTOCK",
+            "text_on_mobile": "",
+            "text_size": 13,
+            "link": ""
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -25,6 +34,7 @@
         }
       },
       "block_order": [
+        "announcement_akbkxx",
         "announcement-bar-0"
       ],
       "settings": {
@@ -85,7 +95,7 @@
         "text_VUCEni": {
           "type": "text",
           "settings": {
-            "heading": "FREE BRACELET OFFER ENDS IN:",
+            "heading": "BUY 10 CHARMS, GET FREE BRACELET:",
             "color": "#ffffff",
             "font_size": 24
           }
@@ -94,8 +104,8 @@
           "type": "timer",
           "settings": {
             "year": "2026",
-            "month": "03",
-            "day": "25",
+            "month": "06",
+            "day": "01",
             "hour": "23",
             "minute": "00",
             "hide_timer_on_completed": false,
