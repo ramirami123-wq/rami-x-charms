@@ -139,7 +139,7 @@
         "custom_liquid_RriXCi": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div style=\"border: 1px solid #e53935; background-color: #ffebee; text-align: center; padding: 30px; font-family: Arial, sans-serif; width: fit-content; margin: 50px auto;\">\n    <h3 style=\"letter-spacing: 2px; font-weight: 400; font-size: 14px; text-transform: uppercase; margin: 0; color: #333;\">\n     BUY 12 CHARMS & GET YOUR BRACELET FOR FREE!\n    </h3>\n    <p style=\"margin-top: 10px; font-size: 16px; color: #333;\">\n    Add your bracelet & charms of choice to cart and benefit from the offer.\n    </p>\n  </div>"
+            "custom_liquid": "<div style=\"border: 1px solid #e53935; background-color: #ffebee; text-align: center; padding: 30px; font-family: Arial, sans-serif; width: fit-content; margin: 50px auto;\">\n    <h3 style=\"letter-spacing: 2px; font-weight: 400; font-size: 14px; text-transform: uppercase; margin: 0; color: #333;\">\n     BUY 10 CHARMS & GET YOUR BRACELET FOR FREE!\n    </h3>\n    <p style=\"margin-top: 10px; font-size: 16px; color: #333;\">\n    Add your bracelet & charms of choice to cart and benefit from the offer.\n    </p>\n  </div>"
           }
         },
         "variant_picker": {
@@ -253,7 +253,7 @@
     "custom_liquid_hCXQkT": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<section style=\"\n  width: 100%;\n  background-color: #9E132B;\n  padding: 60px 20px;\n  text-align: center;\n\">\n  <h2 style=\"\n    color: white;\n    font-size: 28px;\n    letter-spacing: 2px;\n    font-weight: 700;\n    font-family: 'Poppins', sans-serif;\n    margin: 0 0 10px;\n  \">\n    STEP 2: <span style=\"font-weight: 400;\">CUSTOMIZE YOUR BRACELET</span>\n  </h2>\n  <p style=\"\n    color: #ffffffcc;\n    font-size: 14px;\n    font-family: 'Poppins', sans-serif;\n    margin: 0;\n  \">\n    \nBUY 12 CHARMS AND GET THE BRACELET FOR FREE.\n(You must add the bracelet to the cart to be eligible for the offer)\n  </p>\n</section>",
+        "custom_liquid": "<section style=\"\n  width: 100%;\n  background-color: #9E132B;\n  padding: 60px 20px;\n  text-align: center;\n\">\n  <h2 style=\"\n    color: white;\n    font-size: 28px;\n    letter-spacing: 2px;\n    font-weight: 700;\n    font-family: 'Poppins', sans-serif;\n    margin: 0 0 10px;\n  \">\n    STEP 2: <span style=\"font-weight: 400;\">CUSTOMIZE YOUR BRACELET</span>\n  </h2>\n  <p style=\"\n    color: #ffffffcc;\n    font-size: 14px;\n    font-family: 'Poppins', sans-serif;\n    margin: 0;\n  \">\n    \nBUY 10 CHARMS AND GET THE BRACELET FOR FREE.\n(You must add the bracelet to the cart to be eligible for the offer)\n  </p>\n</section>",
         "full_width": true,
         "show_divider": false,
         "padding_top": 36,
